@@ -1,0 +1,4 @@
+[console_scripts]
+sca3-api = sca3_compass.app:run
+sca3-ingest = sca3_compass.ingest_public_data:main
+sca3-source-audit = sca3_compass.source_audit:main

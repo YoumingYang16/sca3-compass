@@ -1,0 +1,18 @@
+{
+  "phase":"DEVELOPMENT_ONLY",
+  "purpose":"Test new and diffuse effect-sharing layouts, not only the historical first-two-study structure",
+  "cases":[
+    {"name":"normal_permuted","distribution":"normal","rho":0.8,"n":64,"effect":3.5,"effect_layout":"permuted"},
+    {"name":"t5_permuted","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"effect_layout":"permuted"},
+    {"name":"t3_permuted","distribution":"t3","rho":0.95,"n":16,"effect":3.5,"effect_layout":"permuted"},
+    {"name":"normal_random_layout","distribution":"normal","rho":0.8,"n":64,"effect":3.5,"effect_layout":"random_gene"},
+    {"name":"t5_random_layout","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"effect_layout":"random_gene"},
+    {"name":"t5_two_patterns","distribution":"t5","rho":0.95,"n":64,"effect":3.5,"effect_layout":"two_patterns"},
+    {"name":"t5_continuous_effects","distribution":"t5","rho":0.8,"n":64,"effect":3.25,"effect_jitter":0.4},
+    {"name":"lognormal_continuous_effects","distribution":"lognormal","rho":0.95,"n":64,"effect":3.75,"effect_jitter":0.4},
+    {"name":"t5_sparse_patterns","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"fraction":0.02},
+    {"name":"t5_single_only_patterns","distribution":"t5","rho":0.8,"n":64,"effect":8,"truth":"single_study_only"},
+    {"name":"t1.5_global_null_patterns","distribution":"t1.5","rho":0.8,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_gene_dependence_patterns","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"gene_rho":0.4}
+  ]
+}

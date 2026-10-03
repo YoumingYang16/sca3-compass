@@ -1,0 +1,18 @@
+{
+  "phase":"DEVELOPMENT_ONLY",
+  "purpose":"Retained composite-null and domain mismatch probes; not silently added to favorable core macro",
+  "cases":[
+    {"name":"normal_null","distribution":"normal","rho":0.8,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"normal_negative_pipeline_null","distribution":"normal","rho":0.8,"n":64,"effect":3.5,"truth":"global_null","null_pipeline_shift":1},
+    {"name":"t5_negative_pipeline_null","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"truth":"global_null","null_pipeline_shift":1},
+    {"name":"t5_one_positive_negative_pipeline_null","distribution":"t5","rho":0.8,"n":64,"effect":8,"truth":"single_study_only","null_pipeline_shift":1},
+    {"name":"t1.5_single_null","distribution":"t1.5","rho":0.8,"n":64,"effect":8,"truth":"single_study_only"},
+    {"name":"t5_tail_shift_null","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"truth":"global_null","calibration_distribution":"normal"},
+    {"name":"t5_reverse_covariance_null","distribution":"t5","rho":0.95,"n":64,"effect":3.5,"truth":"global_null","calibration_rho":0.1},
+    {"name":"t5_reverse_covariance_signal","distribution":"t5","rho":0.95,"n":64,"effect":3.5,"calibration_rho":0.1},
+    {"name":"t5_gene_loadings","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"pipeline_heterogeneity":"gene_random"},
+    {"name":"t5_study_loadings","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"pipeline_heterogeneity":"study_random"},
+    {"name":"t3_shared_loadings","distribution":"t3","rho":0.8,"n":64,"effect":3.5,"pipeline_heterogeneity":true},
+    {"name":"lognormal_shared_loadings","distribution":"lognormal","rho":0.8,"n":64,"effect":3.5,"pipeline_heterogeneity":true}
+  ]
+}

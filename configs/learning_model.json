@@ -1,0 +1,261 @@
+{
+  "schema_version": "2.0",
+  "model": "Bayesian Knowledge Tracing",
+  "evaluation_status": "algorithmically_tested_not_human_validated",
+  "concepts": [
+    {
+      "id": "mental_model",
+      "title": "SCA3 mental model",
+      "prerequisites": [],
+      "p_init": 0.28,
+      "p_learn": 0.18,
+      "p_guess": 0.22,
+      "p_slip": 0.10,
+      "mastery_threshold": 0.85
+    },
+    {
+      "id": "uncertainty",
+      "title": "Uncertainty and individual variation",
+      "prerequisites": ["mental_model"],
+      "p_init": 0.22,
+      "p_learn": 0.17,
+      "p_guess": 0.20,
+      "p_slip": 0.11,
+      "mastery_threshold": 0.85
+    },
+    {
+      "id": "evidence_types",
+      "title": "Evidence types and claims",
+      "prerequisites": ["mental_model"],
+      "p_init": 0.20,
+      "p_learn": 0.16,
+      "p_guess": 0.20,
+      "p_slip": 0.10,
+      "mastery_threshold": 0.85
+    },
+    {
+      "id": "trial_reasoning",
+      "title": "Clinical-trial reasoning",
+      "prerequisites": ["uncertainty", "evidence_types"],
+      "p_init": 0.16,
+      "p_learn": 0.15,
+      "p_guess": 0.20,
+      "p_slip": 0.10,
+      "mastery_threshold": 0.85
+    },
+    {
+      "id": "biomarker_reasoning",
+      "title": "Biomarker interpretation",
+      "prerequisites": ["uncertainty", "evidence_types"],
+      "p_init": 0.14,
+      "p_learn": 0.15,
+      "p_guess": 0.20,
+      "p_slip": 0.11,
+      "mastery_threshold": 0.85
+    },
+    {
+      "id": "care_dialogue",
+      "title": "Evidence-informed care dialogue",
+      "prerequisites": ["uncertainty"],
+      "p_init": 0.24,
+      "p_learn": 0.18,
+      "p_guess": 0.20,
+      "p_slip": 0.10,
+      "mastery_threshold": 0.85
+    }
+  ],
+  "items": [
+    {
+      "id": "mm-01",
+      "concept_id": "mental_model",
+      "difficulty": 0.35,
+      "prompt": "Which statement separates a diagnosis from a prediction?",
+      "options": [
+        "A diagnosis identifies a condition; it does not specify one person's exact future course.",
+        "A diagnosis determines the exact age at which every symptom will occur.",
+        "A diagnosis makes follow-up observations unnecessary.",
+        "A diagnosis and a prognosis are always identical."
+      ],
+      "correct_index": 0,
+      "rationale": "Diagnosis and prognosis answer different questions, and SCA3 trajectories vary between people.",
+      "misconceptions": [null, "genetic_determinism", "static_disease_model", "diagnosis_prognosis_collapse"],
+      "evidence_claim_id": "sca3-genetic-cause"
+    },
+    {
+      "id": "mm-02",
+      "concept_id": "mental_model",
+      "difficulty": 0.50,
+      "prompt": "What is the safest interpretation of an ATXN3 repeat result?",
+      "options": [
+        "It should be interpreted with qualified clinical or genetic counselling context.",
+        "It precisely determines future annual SARA change.",
+        "It proves that a particular treatment will work.",
+        "It replaces neurological assessment."
+      ],
+      "correct_index": 0,
+      "rationale": "A molecular result is clinically meaningful, but it is not a precise individual forecast or treatment recommendation.",
+      "misconceptions": [null, "repeat_size_as_forecast", "genotype_as_treatment_proof", "test_replaces_clinician"],
+      "evidence_claim_id": "sca3-genetic-cause"
+    },
+    {
+      "id": "un-01",
+      "concept_id": "uncertainty",
+      "difficulty": 0.45,
+      "prompt": "A cohort reports a mean annual SARA increase of 1.49 points. What follows?",
+      "options": [
+        "The cohort average describes that study and carries uncertainty; it is not an individual forecast.",
+        "Every participant increased by exactly 1.49 points.",
+        "Any future SCA3 cohort must have the same mean.",
+        "The estimate proves a treatment effect."
+      ],
+      "correct_index": 0,
+      "rationale": "A mean combines varied trajectories and depends on cohort, measurement and follow-up.",
+      "misconceptions": [null, "mean_as_individual", "transportability_without_uncertainty", "observation_as_treatment_effect"],
+      "evidence_claim_id": "china-sara-progression"
+    },
+    {
+      "id": "un-02",
+      "concept_id": "uncertainty",
+      "difficulty": 0.65,
+      "prompt": "Why report both a confidence interval and a prediction interval in a meta-analysis?",
+      "options": [
+        "They address uncertainty in the pooled mean and expected variation across settings, respectively.",
+        "They are two visual styles for the same quantity.",
+        "The prediction interval predicts one patient's next score.",
+        "Only the narrower interval should be disclosed."
+      ],
+      "correct_index": 0,
+      "rationale": "The intervals answer different population-level questions and neither is a personal prognosis.",
+      "misconceptions": [null, "interval_equivalence", "prediction_interval_as_personal", "uncertainty_suppression"],
+      "evidence_claim_id": "eurosca-sara-progression"
+    },
+    {
+      "id": "ev-01",
+      "concept_id": "evidence_types",
+      "difficulty": 0.45,
+      "prompt": "What can a ClinicalTrials.gov registration establish by itself?",
+      "options": [
+        "That a study was registered with stated design information, not that its intervention works.",
+        "That the intervention is effective.",
+        "That all registered outcomes were positive.",
+        "That regulators approved the intervention."
+      ],
+      "correct_index": 0,
+      "rationale": "A registry record describes a study; results and evidentiary conclusions require separate assessment.",
+      "misconceptions": [null, "registration_as_efficacy", "positive_outcome_assumption", "registration_as_approval"],
+      "evidence_claim_id": "china-sara-progression"
+    },
+    {
+      "id": "ev-02",
+      "concept_id": "evidence_types",
+      "difficulty": 0.62,
+      "prompt": "What is an appropriate conclusion from post-mortem RNA expression differences?",
+      "options": [
+        "They can generate and test molecular hypotheses that require replication.",
+        "They diagnose SCA3 in a living individual.",
+        "They prove the direction of disease causality.",
+        "They identify an effective treatment without further experiments."
+      ],
+      "correct_index": 0,
+      "rationale": "Tissue associations are scientifically useful but do not establish diagnosis, causality or efficacy.",
+      "misconceptions": [null, "omics_as_diagnosis", "association_as_causality", "omics_as_efficacy"],
+      "evidence_claim_id": "human-spinal-transcriptome"
+    },
+    {
+      "id": "tr-01",
+      "concept_id": "trial_reasoning",
+      "difficulty": 0.55,
+      "prompt": "What does 80% simulated power mean?",
+      "options": [
+        "Under the stated assumptions, about 80% of repeated hypothetical trials met the analysis criterion.",
+        "The treatment has an 80% probability of working for a patient.",
+        "Exactly 80% of trial participants improve.",
+        "The simulated participants were observed patients."
+      ],
+      "correct_index": 0,
+      "rationale": "Power is an operating characteristic of a design under assumptions, not an efficacy probability.",
+      "misconceptions": [null, "power_as_patient_benefit", "power_as_response_rate", "simulation_as_observation"],
+      "evidence_claim_id": "eurosca-sara-progression"
+    },
+    {
+      "id": "tr-02",
+      "concept_id": "trial_reasoning",
+      "difficulty": 0.70,
+      "prompt": "Why simulate MAR dropout separately from MCAR dropout?",
+      "options": [
+        "Because dropout related to observed severity can change bias and retained information differently from random dropout.",
+        "Because MAR guarantees that no data are missing.",
+        "Because MCAR always creates treatment benefit.",
+        "Because the two labels are interchangeable."
+      ],
+      "correct_index": 0,
+      "rationale": "Missingness assumptions are part of the data-generating model and should be stress-tested.",
+      "misconceptions": [null, "mar_as_complete_data", "mcar_as_effect", "missingness_equivalence"],
+      "evidence_claim_id": "china-sara-progression"
+    },
+    {
+      "id": "bm-01",
+      "concept_id": "biomarker_reasoning",
+      "difficulty": 0.58,
+      "prompt": "A biomarker changes across disease stages. What remains unresolved?",
+      "options": [
+        "Whether changing the biomarker improves clinical outcomes and whether it is valid for an individual use.",
+        "Nothing; stage association proves clinical benefit.",
+        "Only the chart colour.",
+        "Whether any participants were measured."
+      ],
+      "correct_index": 0,
+      "rationale": "Association, intervention responsiveness and individual validity are separate evidentiary questions.",
+      "misconceptions": [null, "biomarker_as_benefit", "visualization_as_only_uncertainty", "measurement_denial"],
+      "evidence_claim_id": "esmi-biomarkers"
+    },
+    {
+      "id": "bm-02",
+      "concept_id": "biomarker_reasoning",
+      "difficulty": 0.72,
+      "prompt": "What strengthens confidence in a molecular pathway signal?",
+      "options": [
+        "Prespecified analysis, multiplicity control and replication in an independent compatible dataset.",
+        "Selecting the smallest unadjusted p-value after looking at all analyses.",
+        "Treating tissue regions from one donor as different people.",
+        "Removing results that disagree with the hypothesis."
+      ],
+      "correct_index": 0,
+      "rationale": "Transparent analysis and independent replication reduce selective and pseudo-replication biases.",
+      "misconceptions": [null, "p_hacking", "pseudoreplication", "selective_reporting"],
+      "evidence_claim_id": "human-spinal-transcriptome"
+    },
+    {
+      "id": "cd-01",
+      "concept_id": "care_dialogue",
+      "difficulty": 0.40,
+      "prompt": "Which preparation best supports a focused clinical conversation?",
+      "options": [
+        "A dated observation timeline plus prioritized questions and uncertainty.",
+        "An AI-generated diagnosis presented as fact.",
+        "A list that mixes observations, assumptions and treatment instructions.",
+        "Uploading family health information to an ungoverned public system."
+      ],
+      "correct_index": 0,
+      "rationale": "Structured observations and questions support dialogue without replacing clinical judgement.",
+      "misconceptions": [null, "ai_as_diagnostician", "observation_inference_collapse", "privacy_boundary_failure"],
+      "evidence_claim_id": "sca3-genetic-cause"
+    },
+    {
+      "id": "cd-02",
+      "concept_id": "care_dialogue",
+      "difficulty": 0.57,
+      "prompt": "How should uncertainty be communicated to a family?",
+      "options": [
+        "State what is known, what is uncertain, the evidence source and which question needs a professional.",
+        "Hide uncertainty to make the answer feel reassuring.",
+        "Convert a cohort average into a personal timetable.",
+        "Use technical terminology without checking understanding."
+      ],
+      "correct_index": 0,
+      "rationale": "Calibrated communication preserves both usefulness and epistemic honesty.",
+      "misconceptions": [null, "uncertainty_suppression", "mean_as_individual", "jargon_as_understanding"],
+      "evidence_claim_id": "china-sara-progression"
+    }
+  ]
+}

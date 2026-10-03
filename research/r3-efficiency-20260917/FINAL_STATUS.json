@@ -1,0 +1,72 @@
+{
+  "version": "R3-GSR-1.0.0",
+  "primary": "R3_main",
+  "phase": "BOUNDED_EVIDENCE_DELIVERY_FINALIZED",
+  "bounded_phase_complete": true,
+  "internal_final_review_integrated": true,
+  "finalized_hkt": "2026-09-17 20:14:48",
+  "seal_receipt": "DELIVERY_MANIFEST.json; if absent, final sealing is incomplete even though evidence/review work is finalized.",
+  "full_user_success": false,
+  "novelty_established": false,
+  "scientific_status": "MODEL_VALID_WITH_CONFIRMED_EFFICIENCY_GAIN__FULL_R3_CRITERIA_NOT_MET",
+  "theory_grade": "A_MODEL_IDEAL_ARITHMETIC",
+  "theory_scope": "Full learned signed2of4 PC/PILOT/eBH procedure under independent common-block radial separable M0 and matched centered finite calibration; unconditional over calibration and auxiliary randomization. Not arbitrary gene dependence, a fixed-calibration conditional guarantee, or a universal floating-point certificate.",
+  "confirmation": {
+    "id": "R3-C001",
+    "families": 15360,
+    "repetitions_per_scene": 1024,
+    "scenes": 15,
+    "two_sided_intervals": 289,
+    "joint_confidence": 0.975,
+    "formal_attempts_used": 1,
+    "reserve": 0,
+    "wall_seconds": 7253.955821899988,
+    "last_progress_seconds": 7253.798983699991,
+    "core_paired_power_gain": 0.06894339767156862,
+    "core_gain_interval": [0.05460835586779633, 0.08200966993071468],
+    "max_M0_primary_fdr": 0.0048828125,
+    "max_M0_primary_fdr_upper": 0.02469514209888235,
+    "all_ten_nonnull_M0_paired_lowers_positive": true,
+    "numerical_failures_R3": 0,
+    "numerical_failures_R2": 0,
+    "V1_top_level_fallbacks_retained": 2,
+    "freeze_sha256": "4ef7e448c1ee6ee6064a0e31d53e6f36e21b9825e6a7920ef82aebcee9e0b620",
+    "index_sha256": "0f7423b20278321a5286d3326d548fa6adb65c9ae2c2d158a0b2d5b713339b1d",
+    "summary_sha256": "85bbb0fae69f6a45b6d96c82e6c40727914b74be1b6a29131169b661fee64697"
+  },
+  "user_criteria": {
+    "1_same_finite_validity_grade": "SUPPORTED_WITHIN_M0_IDEAL_ARITHMETIC",
+    "2_complete_algorithm_covered": "SUPPORTED_WITHIN_DECLARED_ASSUMPTIONS",
+    "3_independent_M0_fdr_acceptance": "PASS_ALL_13_SCENES",
+    "4_credible_substantive_power_gain": "PASS_SCOPED_CORE_6.894_PP_AND_3.516_EXTRA_TP",
+    "5_no_new_key_M0_regression": "PASS_ALL_10_PAIRED_LOWERS_POSITIVE",
+    "6_strong_gap_reduction": "SUPPORTED_CORE_GAP_SHRINKS_BY_THE_PAIRED_GAIN_BUT_REMAINING_23.514_PP_NOT_PROVED_NECESSARY",
+    "7_complexity_cost": "FEASIBLE_AT_TESTED_G256_SCALE_BUNDLE_TIMINGS_NOT_OPTIMIZED_PRIMARY_BENCHMARK",
+    "8_novel_contribution_vs_closest_work": "NOT_ESTABLISHED",
+    "15_default_drift_not_worsened": "FAIL_BOTH_PREDECLARED_BOUNDARIES"
+  },
+  "boundary_status": {
+    "13": "WORSENING_DETECTED",
+    "14": "WORSENING_DETECTED",
+    "external_Delta5": "CONDITIONAL_SENSITIVITY_ONLY_NOT_A_REPLACEMENT_FOR_DEFAULT"
+  },
+  "reproducibility": {
+    "frozen_tests_passed": 15,
+    "prespecified_saved_input_replays": 5,
+    "exact_arrays": 109,
+    "whole_summary_reanalysis_byte_identical": true,
+    "three_figures_visually_checked": true,
+    "actual_example_status": "completed",
+    "actual_example_discoveries": 0,
+    "all_generation_seeds_regenerated": false
+  },
+  "limitations": [
+    "Extra geometric Power contribution individually confirmed only in t3N12, not uniformly.",
+    "Independent orientation architecture changes learning sample sizes as well as protection.",
+    "Pivot information bound is not a full-data minimax or detection-Power bound.",
+    "Strong method remains more powerful in nine nonnull M0 scenes and has a different guarantee grade.",
+    "All new data are simulations; no real SCA3 application or clinical claim.",
+    "Internal independent AI review is not external peer review or a proof of novelty."
+  ],
+  "next_scientific_execution": "NONE_NO_R4_NO_RECONFIRMATION_NO_DRIFT_RESCUE"
+}

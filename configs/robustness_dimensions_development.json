@@ -1,0 +1,18 @@
+{
+  "phase": "DEVELOPMENT_ONLY",
+  "purpose": "Dimension diagnostic, not confirmation. Preserve reference G256/K6 results. Four studies/r2 unchanged; signed family scales with G. Non-six pipeline loading/shift shapes are interpolated from the historical shape, with positive loadings mean-normalized.",
+  "cases": [
+    {"name":"normal_G64_K3","distribution":"normal","rho":0.8,"n":32,"effect":3.5,"genes":64,"pipelines":3},
+    {"name":"t5_G64_K3","distribution":"t5","rho":0.8,"n":32,"effect":3.5,"genes":64,"pipelines":3},
+    {"name":"t3_G128_K3","distribution":"t3","rho":0.95,"n":16,"effect":3.5,"genes":128,"pipelines":3},
+    {"name":"t1.5_G128_K3","distribution":"t1.5","rho":0.8,"n":32,"effect":3.5,"genes":128,"pipelines":3},
+    {"name":"normal_G512_K10","distribution":"normal","rho":0.8,"n":32,"effect":3.5,"genes":512,"pipelines":10},
+    {"name":"t5_G512_K10","distribution":"t5","rho":0.8,"n":32,"effect":3.5,"genes":512,"pipelines":10},
+    {"name":"t3_G128_K10","distribution":"t3","rho":0.95,"n":16,"effect":3.5,"genes":128,"pipelines":10},
+    {"name":"lognormal_G128_K10","distribution":"lognormal","rho":0.8,"n":32,"effect":3.5,"genes":128,"pipelines":10},
+    {"name":"t5_G64_K3_global_null","distribution":"t5","rho":0.8,"n":16,"effect":3.5,"genes":64,"pipelines":3,"truth":"global_null"},
+    {"name":"t5_G512_K10_global_null","distribution":"t5","rho":0.8,"n":32,"effect":3.5,"genes":512,"pipelines":10,"truth":"global_null"},
+    {"name":"t5_G128_K3_heterogeneous","distribution":"t5","rho":0.8,"n":32,"effect":3.5,"genes":128,"pipelines":3,"pipeline_heterogeneity":true},
+    {"name":"t5_G128_K10_heterogeneous","distribution":"t5","rho":0.8,"n":32,"effect":3.5,"genes":128,"pipelines":10,"pipeline_heterogeneity":true}
+  ]
+}

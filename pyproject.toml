@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sca3-compass"
+version = "0.1.0"
+description = "Enterprise-grade evidence, analytics, trial simulation and learning platform for SCA3"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+api = [
+  "fastapi>=0.116,<1",
+  "uvicorn[standard]>=0.35,<1",
+  "numpy>=2.1,<3",
+  "scipy>=1.15,<2",
+  "pandas>=2.2,<3",
+  "threadpoolctl>=3.6,<4",
+  "pydantic>=2.11,<3",
+  "fhir.resources==8.1.0",
+]
+dev = [
+  "httpx>=0.28,<1",
+  "pytest>=8.3,<9",
+  "pytest-cov>=6,<7",
+  "ruff>=0.12,<1",
+]
+research = [
+  "matplotlib>=3.11,<4",
+]
+retrieval = [
+  "torch==2.6.0",
+  "transformers==4.57.6",
+  "safetensors>=0.6,<1",
+]
+
+[project.scripts]
+sca3-source-audit = "sca3_compass.source_audit:main"
+sca3-ingest = "sca3_compass.ingest_public_data:main"
+sca3-transcriptomics = "sca3_compass.transcriptomics:main"
+sca3-gene-expression = "sca3_compass.gene_expression:main"
+sca3-evidence-eval = "sca3_compass.evidence_engine:main"
+sca3-api = "sca3_compass.app:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["sca3_compass"]

@@ -1,0 +1,211 @@
+{
+  "utc": "2026-09-18T04:57:49.370031+00:00",
+  "files": {
+    "r4_common.py": "d7625abbd81cae607f90b24d4fd4e47a6d402cb2a017aadb4b0e62c50a5ec914",
+    "r4_model.py": "2bb82d8d6ab0a68d1bcee060cda28a1a215643375f202d11d8a47c90508a670f",
+    "r4_kernel.py": "bae9ca53025cc4f384bcf56e2be2ad738ba25ca81b7463b4703946f0f86fa286",
+    "target_calibration.py": "05a204c40e61d5b63db3d56fceb289249cf64117deb75055ed030c7682526c24",
+    "two_bank_reference.py": "0789180f5d69475373cf7dec8125c8540585b53fe4a2ade32c8939b39b92e6ee",
+    "r4_simulation.py": "4dc7d796ef9f1c462f0f7e60d5f7f5a228078ea58911f940830497af66e1c66b",
+    "r4_experiment.py": "f4079f5b7582d76e87ecf18580d74022dc642faa0629a38439b87ec393f78dd4",
+    "test_r4.py": "0e54b98f220057eb9f6a115be075dbc5b8022490bcae5427958b1364696926c1",
+    "information_bounds.py": "5a96c8308499c4c1cf3a2a9da9e280574b48a3caf20ee6692d6e9b84f2c088fc",
+    "r4_cli.py": "d0727f9eeed8ca79d2fe24b54aa592cbec7b05480e46e49b1c8cd6071c68d968",
+    "R4_THEORY.md": "eba7b6bb7f9cf62600a9b20159be19b4423c5596306e7e4acbaa60d037928c60",
+    "protocol.json": "dfb174af24b49a6af5eca3b3617fbc831e471105cc02a8225f2edbe7bb29b544"
+  },
+  "anchors": {
+    "research/r3-efficiency-20260917/C001/freeze.json": "4ef7e448c1ee6ee6064a0e31d53e6f36e21b9825e6a7920ef82aebcee9e0b620",
+    "research/r2-finite-20260917/C001/freeze.json": "68068c9f1cf68eb46700b18287b0d226a8a3c2ff1c5ea592e036ee88a2538d8e",
+    "research/r3-novelty-20260918/DELIVERY_MANIFEST.json": "10bf73416b58512ecb6e8a0e5a6c554ac3c928875d57b01ae4520692b410660c"
+  },
+  "dependencies": {
+    "sca3_compass": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\__init__.py",
+      "sha256": "23cd55e071cbb5db8ff0b9eeb39233ce7c4513a6d35e0eedf75b5b9ebf4fa45d"
+    },
+    "sca3_compass.robustness_patterns": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_patterns.py",
+      "sha256": "009cec32133528f7bed5359fa51d7ffabe2c8ca27895d8f6d0dde886d9cec1db"
+    },
+    "sca3_compass.robustness_simes": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_simes.py",
+      "sha256": "860057cdb90ae9c6b76f5e130969f1df522f823b29c006465b5f67122adb9b62"
+    },
+    "sca3_compass.robustness_projection": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_projection.py",
+      "sha256": "d026c39456a871c441e4967a2d5daa63d204741653befb6baf5abf2d648bbeee"
+    },
+    "sca3_compass.molecular_methods": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\molecular_methods.py",
+      "sha256": "a88b4cc42ecb5bed28f50a13af290cec50461c0bbc9dafb8eae1ebfb48f13fce"
+    },
+    "sca3_compass.robustness_calibrators": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_calibrators.py",
+      "sha256": "abf9c4800bb8e053ba074eadbbd573e6533c9ccc97ec2d3e3fcac79d315b7037"
+    },
+    "finite_calibration": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r2-finite-20260917\\C001\\finite_calibration.py",
+      "sha256": "7685dff1adfe2feb6dbe67dbd2f0f7269f63e7cff418fa5cfd325f9925f049d8"
+    },
+    "sca3_compass.robustness_conjunction": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_conjunction.py",
+      "sha256": "ed59492a1af3308e41ed3734b69c94b5512a2a2cce468dc44dce522e2c02b681"
+    },
+    "sca3_compass.robustness_limma": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_limma.py",
+      "sha256": "958e1e3a7052e64204629439686e69a90f56d29f175cd34ceeb1f75efd2e470b"
+    },
+    "sca3_compass.robustness_evidence": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_evidence.py",
+      "sha256": "7cfe0752c666c8f8724acffb517527e0c9dd0c157213b42eff756f8d79f6a26d"
+    },
+    "sca3_compass.robustness_universal": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_universal.py",
+      "sha256": "cfcb9c13f481bc34f7e4aad3e46b6c7f5601b8ab1d9f1d4080b390e0f0925d55"
+    },
+    "sca3_compass.robustness_cone": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_cone.py",
+      "sha256": "65a84437d624f4a1ec2aaeffbb600aabcd1369d2886fda07e125a2d5c133af2f"
+    },
+    "sca3_compass.molecular_envelope": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\molecular_envelope.py",
+      "sha256": "a8258737cfa5bb40527f1e741a8c22100e2745cbbf816d639f044dbbeaaa6d62"
+    },
+    "sca3_compass.robustness_weighting": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_weighting.py",
+      "sha256": "42e317691e096212fd258fc857397ad1e8157a5a5ead15d2d1957da8f9db0ddc"
+    },
+    "sca3_compass.robustness_adaptive_cone": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_adaptive_cone.py",
+      "sha256": "d7f0fbaf3f263ff90200c1291bebdd3187426ed77ee8266c55dd04ec781932cc"
+    },
+    "sca3_compass.robustness_methods": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_methods.py",
+      "sha256": "1981602a94e0307093d5ae2877cefc9ee664c4e27e36fba289094530bf703be6"
+    },
+    "sca3_compass.robustness_prior": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_prior.py",
+      "sha256": "9dac688151d40b229fefb0e2fa637d8945c551c76c08de15f02fac2ee0ab3f56"
+    },
+    "sca3_compass.robustness_pilot": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_pilot.py",
+      "sha256": "44992ab021d1ebc426573cf29efc73d111a6ca5d9040daf4bdd397be65a420bc"
+    },
+    "sca3_compass.robustness_pilot_selection": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_pilot_selection.py",
+      "sha256": "e96893b26c16d4777e75cb1860ce395340d3e85974a66c4eeb5ead7dc4220ee2"
+    },
+    "sca3_compass.robustness_bootstrap_guard": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_bootstrap_guard.py",
+      "sha256": "b3db8f16664f370cd011deeacfccaf324af00d278a958dc9f012f921f40b3c75"
+    },
+    "sca3_compass.robustness_calibration_efficiency": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_calibration_efficiency.py",
+      "sha256": "a029910dfd5194355a127efa72d43c8954a51ede09577294498d2bac5ac8ab4f"
+    },
+    "sca3_compass.robustness_calibration_numeric_repair": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_calibration_numeric_repair.py",
+      "sha256": "bd7bfebeb6be0b866806145be31d15652cdcb5f19a2facbbf6457df5a85e6b66"
+    },
+    "sca3_compass.molecular_v1": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\molecular_v1.py",
+      "sha256": "282be3fcb5151e3545340ace67fc5742e2b641e54585bafd3b04f239fb52cb81"
+    },
+    "sca3_compass.molecular_data": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\molecular_data.py",
+      "sha256": "0f1aead3ee3203a5d7e50219835d176b3316bf0e5636a0b25b92bcded04c8d5d"
+    },
+    "sca3_compass.analytics": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\analytics.py",
+      "sha256": "91bb08854b14de767e6e06542b0a1e3d5b71aab5c0a0a060bee0d408c88776fc"
+    },
+    "sca3_compass.repository": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\repository.py",
+      "sha256": "fc988b9ba0bc05f1e6d5937fefd15a177945c852be5d1dbad1858c10a7dbafd6"
+    },
+    "sca3_compass.molecular_benchmark": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\molecular_benchmark.py",
+      "sha256": "93dbd5bcf17a737cdff7a9c4611c8f5e9260bb143c3664b3cb2dc207d5b04339"
+    },
+    "sca3_compass.robustness_io": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_io.py",
+      "sha256": "514f1a51f6897818280c64cdbd2adcfd8cb031c13c13dc1c5abee6620e0d2c8b"
+    },
+    "sca3_compass.molecular_envelope_benchmark": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\molecular_envelope_benchmark.py",
+      "sha256": "d5e91d795a0d56fd94d784e56dba2f57cb5519fcc976daef71984364ab522493"
+    },
+    "sca3_compass.robustness_mc": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_mc.py",
+      "sha256": "7fa765838af5393a11d30d5f2b2f7a2b12f5c12b0642907c2f5dac7bf6e6e186"
+    },
+    "sca3_compass.robustness_registry": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_registry.py",
+      "sha256": "2dfc4cdcc6aec7a1b1fde7fce5530d9cfb704c39014f622191804fe03d9dea21"
+    },
+    "sca3_compass.robustness_softscore": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_softscore.py",
+      "sha256": "fbb5079b794e56f5fe95ca648195f98520c8916b983596887c880d8b0440bee3"
+    },
+    "sca3_compass.robustness_loading": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_loading.py",
+      "sha256": "357bfa2535e4ddeaf9d632efb9a62ce290935a9a3e1e4ef530921e461f6331ef"
+    },
+    "sca3_compass.robustness_block_e": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_block_e.py",
+      "sha256": "f984bad54dc7509f876a53fd3ffb64d0f0b42edd25bf7a199eba8f1e7436ed7a"
+    },
+    "sca3_compass.robustness_pattern_test": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_pattern_test.py",
+      "sha256": "135bdaf47866bfb068b7e39b13cedc7273c3cec4b6524fce61a3b8919171f05c"
+    },
+    "sca3_compass.robustness_geometry": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_geometry.py",
+      "sha256": "7de2605c733840ea3cf7d304ad3d224355f8e0ffc69b6ea2a6a53706b7a3478e"
+    },
+    "sca3_compass.robustness_dispatch": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\src\\sca3_compass\\robustness_dispatch.py",
+      "sha256": "541abc7c0b6f64e8303d36f99483afb8e9940815478d1cb044edc54db66d9f97"
+    },
+    "robustness_screen": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\releases\\K-NR-1.0.0\\source\\scripts\\robustness_screen.py",
+      "sha256": "7b5ca1b2b11fd154f749e7ced6571e8e448b07d3b181d6e6cbbf24d1882fbc5b"
+    },
+    "experiment": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r2-finite-20260917\\C001\\experiment.py",
+      "sha256": "5fd641c51967e14ff51538e435e910b68401726b7a2033e6188f61a8ede453dd"
+    },
+    "provenance": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r2-finite-20260917\\C001\\provenance.py",
+      "sha256": "8588dcccf76c01fbcd1229612c9f392a48d8ef8c88d77c302751e1b52a5a635b"
+    },
+    "r3_common": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r3-efficiency-20260917\\C001\\r3_common.py",
+      "sha256": "a5209f87d11c8aa3232b1a4010c3f167a7d1e6e5b12f8e99e56a6c83a3c807cd"
+    },
+    "grid_calibration": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r2-finite-20260917\\C001\\grid_calibration.py",
+      "sha256": "d90037a8da6e8892a34e7a55761256e949bf6019edeeea64f88b28611da68383"
+    },
+    "predictive_bridge": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r2-finite-20260917\\C001\\predictive_bridge.py",
+      "sha256": "4bda60e9b0e0a64bfdc863476910c03cf3004d2dc01e0a58128a098ef63af823"
+    },
+    "r3_model": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r3-efficiency-20260917\\C001\\r3_model.py",
+      "sha256": "45a1aecdf7de461987d5623a98864abdfa768f367ddad42cfe641e1ecf055447"
+    },
+    "bounded_intervals": {
+      "path": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r3-efficiency-20260917\\C001\\bounded_intervals.py",
+      "sha256": "d2143c54a5b9fdcc7175a1eb7712859ee66e1e20b718922baaca59f4ac946402"
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ROG\\Documents\\Codex\\2026-09-11\\plugin-browser-openai-bundled-x20\\sca3-compass\\research\\r4-target-calibration-20260918\\.r4-venv\\Scripts\\python.exe",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

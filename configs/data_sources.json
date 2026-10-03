@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "clinicaltrials_sca3_api",
+      "title": "ClinicalTrials.gov SCA3 study records",
+      "category": "clinical_trial_registry",
+      "tier": "PUBLIC_REAL",
+      "intended_uses": ["SCIENTIFIC_INFERENCE", "EVIDENCE_RETRIEVAL"],
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Spinocerebellar%20Ataxia%20Type%203&pageSize=1&countTotal=true",
+      "license_or_terms": "ClinicalTrials.gov terms and conditions",
+      "check": {
+        "mode": "json",
+        "max_bytes": 2000000,
+        "positive_integer_field": "totalCount"
+      }
+    },
+    {
+      "id": "geo_gse309548_human_rnaseq",
+      "title": "Human SCA3 and control spinal-cord RNA-seq file manifest",
+      "category": "human_transcriptomics",
+      "tier": "PUBLIC_REAL",
+      "intended_uses": ["SCIENTIFIC_INFERENCE"],
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE309nnn/GSE309548/suppl/filelist.txt",
+      "license_or_terms": "NCBI database and data usage policies",
+      "check": {
+        "mode": "text",
+        "max_bytes": 100000,
+        "contains": ["GSE309548_RAW.tar", "GSM9269066_Human_1_abundance.csv.gz", "GSM9269079_Human_14_abundance.csv.gz"]
+      }
+    },
+    {
+      "id": "geo_gse93713_ipsc_matrix",
+      "title": "SCA3 and genetically corrected iPSC expression matrix",
+      "category": "human_cell_transcriptomics",
+      "tier": "PUBLIC_REAL",
+      "intended_uses": ["SCIENTIFIC_INFERENCE"],
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE93nnn/GSE93713/matrix/GSE93713_series_matrix.txt.gz",
+      "license_or_terms": "NCBI database and data usage policies",
+      "check": {
+        "mode": "head"
+      }
+    },
+    {
+      "id": "gencode_v50_hgnc_annotation",
+      "title": "GENCODE 50 GRCh38 transcript-to-HGNC annotation",
+      "category": "reference_annotation",
+      "tier": "PUBLIC_REAL",
+      "intended_uses": ["SCIENTIFIC_INFERENCE"],
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.metadata.HGNC.gz",
+      "license_or_terms": "GENCODE data access and EMBL-EBI terms of use",
+      "check": {
+        "mode": "head"
+      }
+    },
+    {
+      "id": "pmc_china_two_year_cohort",
+      "title": "Mainland China two-year SCA3 natural-history cohort",
+      "category": "natural_history_publication",
+      "tier": "PUBLIC_REAL",
+      "intended_uses": ["SCIENTIFIC_INFERENCE", "EVIDENCE_RETRIEVAL"],
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC9294347/unicode",
+      "license_or_terms": "Article-specific open-access license",
+      "check": {
+        "mode": "text",
+        "max_bytes": 500000,
+        "contains": ["spinocerebellar ataxia type 3", "SARA"]
+      }
+    },
+    {
+      "id": "pmc_eurosca_two_year_cohort",
+      "title": "EUROSCA two-year natural-history cohort PubMed record",
+      "category": "natural_history_publication",
+      "tier": "PUBLIC_REAL",
+      "intended_uses": ["SCIENTIFIC_INFERENCE", "EVIDENCE_RETRIEVAL"],
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pubmed.cgi/BioC_json/21832228/unicode",
+      "license_or_terms": "Article-specific open-access license",
+      "check": {
+        "mode": "text",
+        "max_bytes": 500000,
+        "contains": ["SCA3", "SARA"]
+      }
+    },
+    {
+      "id": "pmc_esmi_biomarker_progression",
+      "title": "ESMI longitudinal biological-marker cohort (medRxiv preprint snapshot)",
+      "category": "natural_history_publication",
+      "tier": "PUBLIC_REAL",
+      "intended_uses": ["SCIENTIFIC_INFERENCE", "EVIDENCE_RETRIEVAL"],
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11838669/unicode",
+      "license_or_terms": "CC BY-NC-ND 4.0; noncommercial, no-derivative restrictions. This snapshot is a medRxiv preprint, not the journal version.",
+      "check": {
+        "mode": "text",
+        "max_bytes": 1000000,
+        "contains": ["SCA3", "NfL", "SARA"]
+      }
+    }
+  ]
+}

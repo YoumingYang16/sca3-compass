@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "review_status": "curated_for_technical_demonstration_not_clinical_validation",
+  "claims": [
+    {
+      "id": "sca3-genetic-cause",
+      "topic": "Genetics",
+      "title": "SCA3 is associated with an ATXN3 CAG repeat expansion",
+      "plain_language": "SCA3 is an inherited neurological condition associated with an expanded CAG repeat in one copy of the ATXN3 gene.",
+      "boundary": "A genetic result must be interpreted by a qualified clinician or genetic counsellor; repeat size alone cannot precisely predict an individual's course.",
+      "source_title": "GeneReviews: Spinocerebellar Ataxia Type 3",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK1196/",
+      "provenance_tier": "PUBLIC_REAL",
+      "evidence_type": "expert_reference"
+    },
+    {
+      "id": "china-sara-progression",
+      "topic": "Natural history",
+      "title": "A Mainland China cohort estimated annual SARA progression",
+      "plain_language": "In a two-year longitudinal cohort, the estimated average annual SARA increase was 1.49 points, with substantial limits on applying a cohort average to one person.",
+      "boundary": "This is a cohort estimate, not a personal prediction.",
+      "source_title": "The Natural History of SCA3 in Mainland China",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9294347/",
+      "provenance_tier": "PUBLIC_REAL",
+      "evidence_type": "longitudinal_cohort"
+    },
+    {
+      "id": "eurosca-sara-progression",
+      "topic": "Natural history",
+      "title": "EUROSCA found measurable long-term change in SARA",
+      "plain_language": "The long-term EUROSCA analysis estimated an average SARA increase of 1.56 points per year for its SCA3 cohort.",
+      "boundary": "Cohort composition, baseline severity and follow-up can affect estimates.",
+      "source_title": "Long-term disease progression in SCA1, SCA2, SCA3, and SCA6",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26377379/",
+      "provenance_tier": "PUBLIC_REAL",
+      "evidence_type": "longitudinal_cohort"
+    },
+    {
+      "id": "esmi-biomarkers",
+      "topic": "Biomarkers",
+      "title": "ESMI follows clinical, fluid and MRI markers across disease stages",
+      "plain_language": "The ESMI cohort reported stage-dependent changes in SARA, neurofilament light and MRI measures, illustrating that candidate outcomes behave differently across the disease course.",
+      "boundary": "This linked snapshot is a medRxiv preprint, not the journal version. A biomarker association does not by itself establish clinical benefit or suitability for an individual.",
+      "source_title": "Progression of biological markers in SCA3 (medRxiv preprint)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11838669/",
+      "provenance_tier": "PUBLIC_REAL",
+      "evidence_type": "longitudinal_biomarker_preprint"
+    },
+    {
+      "id": "human-spinal-transcriptome",
+      "topic": "Molecular research",
+      "title": "Public human spinal-cord transcriptomics are available",
+      "plain_language": "GSE309548 contains public SCA3 and control human spinal-cord RNA-seq files that can support donor-aware molecular research.",
+      "boundary": "Post-mortem expression associations are not diagnostic or prognostic tests.",
+      "source_title": "GEO GSE309548",
+      "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309548",
+      "provenance_tier": "PUBLIC_REAL",
+      "evidence_type": "human_transcriptomics"
+    }
+  ]
+}

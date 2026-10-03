@@ -1,0 +1,383 @@
+{
+  "phase": "DEVELOPMENT_ONLY",
+  "cases": [
+    {
+      "name": "normal_n16_rho0.1_z2.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n16_rho0.1_z3.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n16_rho0.1_z4.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n16_rho0.8_z2.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n16_rho0.8_z3.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n16_rho0.8_z4.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n16_rho0.95_z2.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n16_rho0.95_z3.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n16_rho0.95_z4.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n64_rho0.1_z2.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n64_rho0.1_z3.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n64_rho0.1_z4.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n64_rho0.8_z2.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n64_rho0.8_z3.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n64_rho0.8_z4.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n64_rho0.95_z2.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n64_rho0.95_z3.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n64_rho0.95_z4.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n256_rho0.1_z2.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n256_rho0.1_z3.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n256_rho0.1_z4.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n256_rho0.8_z2.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n256_rho0.8_z3.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n256_rho0.8_z4.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 4.5
+    },
+    {
+      "name": "normal_n256_rho0.95_z2.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 2.5
+    },
+    {
+      "name": "normal_n256_rho0.95_z3.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 3.5
+    },
+    {
+      "name": "normal_n256_rho0.95_z4.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n16_rho0.1_z2.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n16_rho0.1_z3.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n16_rho0.1_z4.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n16_rho0.8_z2.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n16_rho0.8_z3.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n16_rho0.8_z4.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n16_rho0.95_z2.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n16_rho0.95_z3.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n16_rho0.95_z4.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n64_rho0.1_z2.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n64_rho0.1_z3.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n64_rho0.1_z4.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n64_rho0.8_z2.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n64_rho0.8_z3.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n64_rho0.8_z4.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n64_rho0.95_z2.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n64_rho0.95_z3.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n64_rho0.95_z4.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n256_rho0.1_z2.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n256_rho0.1_z3.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n256_rho0.1_z4.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n256_rho0.8_z2.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n256_rho0.8_z3.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n256_rho0.8_z4.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 4.5
+    },
+    {
+      "name": "t5_n256_rho0.95_z2.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 2.5
+    },
+    {
+      "name": "t5_n256_rho0.95_z3.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 3.5
+    },
+    {
+      "name": "t5_n256_rho0.95_z4.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 4.5
+    }
+  ]
+}

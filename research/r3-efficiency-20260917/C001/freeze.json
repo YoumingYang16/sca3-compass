@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-17T09:48:04.748823+00:00",
+  "files": {
+    "r3_experiment.py": "ade158608860b40e262b82095eeaf51c3bb5f2f99fcc7002f11e9afc73a1f43d",
+    "r3_common.py": "a5209f87d11c8aa3232b1a4010c3f167a7d1e6e5b12f8e99e56a6c83a3c807cd",
+    "r3_model.py": "45a1aecdf7de461987d5623a98864abdfa768f367ddad42cfe641e1ecf055447",
+    "test_r3.py": "32887b8be266156dcb072a99b73f9c2b409d1700d7166d4bec9e42caf48d4b0c",
+    "R3_THEORY.md": "e95da34cebea8ab74b0448d97487d53a464398348968367f453efbde898790a9",
+    "bounded_intervals.py": "d2143c54a5b9fdcc7175a1eb7712859ee66e1e20b718922baaca59f4ac946402",
+    "analyze_confirm.py": "2c8fc1efcbfa893a35672eb8e74c6a583f3bc46bfadd159b21278ddd47fbcf02",
+    "test_intervals.py": "e7d1e056c5870d9876a835a41ea8c6d7be3b32d90796609dcec9c6c54c83fc02",
+    "INTERVAL_PROTOCOL.md": "4235a3214791a44ab8501282bf5d8b5c0877f126b4b36221be56103783d797ec",
+    "CALIBRATION_MOMENTS.md": "7e763088466bf7e225566b0147e130b7f7d1d08bfe628f12dda9b3e0c405f942",
+    "test_execution.py": "d3df1518734b903ca6a1e70842d9f6b92c2cedfd6f34cdb12e1039c11897f196",
+    "protocol.json": "eedeeb64b5eec4f52a00043a233d7cf7d7d8a07cbe2668b13d26d95d78043e46"
+  },
+  "r2_manifest_sha256": "51ad4505b7d74d90ed9c0164a8d359c3bb6238db6b2eb08ba741d9f7d1b78073",
+  "r2_index_sha256": "4d1cc3d3794248eac991e18dc714c800bdf5e96627ef2ea585467f7a778fd0a7",
+  "r2_freeze_sha256": "68068c9f1cf68eb46700b18287b0d226a8a3c2ff1c5ea592e036ee88a2538d8e",
+  "r2_protocol_sha256": "34087d1d9752a905336f6b38a78be304ccd0f800bd1325a8363385629b1ebad0"
+}

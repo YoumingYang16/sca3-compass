@@ -1,0 +1,31 @@
+{
+ "id":"R4-C001","stage":"ONE_FROZEN_INDEPENDENT_R4_CONFIRMATION","version":"R4-TCB-0.2.0",
+ "seed":202609181355,"family_G":256,"reference_draws":4095,"workers":10,"repetitions":512,
+ "safety_timeout_seconds":14400,"alpha":0.025,"interval_cap":160,"planned_intervals":133,
+ "methods":["source","source_bound","target","bridge","naive_pool","target_ordinary","bridge_ordinary","strong_target","strong_pool_bound"],
+ "comparisons":[["bridge","target"],["target","source"],["bridge","target_ordinary"],["bridge","strong_target"],["bridge","strong_pool_bound"]],
+ "core_cases":[0,1,2,3,7,8],"allocation_comparisons":[[8,1]],
+ "primary_candidate":"bridge: fixed lambda=Nt/(Ns+Nt), target-median DIR, exact pooled-N reference, external D",
+ "backup":"unchanged target-only R3; it is a baseline, not an independently invented R4 method",
+ "history":"R4-D001c six cases x64 is development. R2/R3/C2 old confirmations keep their old labels and are not R4 inputs. This is the sole R4 confirmation; no reserved retry and no global historical confidence claim. No optional sample extension, seed reroll, scenario deletion or refreeze on result.",
+ "independence":"Separate SeedSequence child streams for Z,Cs,Ct,references. Each repeat regenerates both banks and whole Z. Case1 and8 share pair_id to compare allocations on common Z; independent rep indices remain the units for their paired contrast. All core contrasts are equal-weight averages over six fixed cases within rep; no gene-level pseudo-replication.",
+ "precision_basis":"DEV paired SD bridge-target .410/.275/.212/.192/.100 across legal cases. At n512 pointwise MCSE roughly .44-1.81pp; finite simultaneous betting intervals are wider and are the reporting intervals. DEV cost268.44s/384 at8workers; estimated45-65min for5120 at10workers. Fixed512 also gives useful finite FDR upper endpoints near a .5-1pct empirical FDR; not guaranteed decisive. Sample count is fixed now and will not increase to obtain a favorable interval.",
+ "interval_method":"Frozen R3 fixed-fraction betting inversion, whole-family metric in[0,1] or paired difference[-1,1], Bonferroni cap160 with alpha.025;9x10 FDR,5x7 nonnull Power differences,5 core differences,3 allocation differences=133. Intervals concern this design only. Theory and MC evidence remain separate.",
+ "validity_gate":"Complete T1-T3 chain and implementation audit. Empirical support flag only if all9 within-bound primary bridge FDR upper endpoints<=.05. If not, label finite evidence unresolved/contradictory as appropriate; do not change nominal q or tune to truth.",
+ "usefulness_rules":"Report all cases and equal-weight core. Local efficiency evidence if bridge-minus-target lower>0 at a registered case with valid premise; no claim of a uniform winner. For an overall-advantage claim require core lower>0 AND all legal nonnull per-case lower>=-.02 (guard about one signed discovery in sparse G256 design). Known wide-D loss is retained and may defeat that stronger claim. No +3pp target. Strong comparisons alone cannot override missing validity assumptions.",
+ "boundary_rule":"Case9 has underestimated external D; retain its FDR/Power but exclude it explicitly from within-bound validity gate and core because that is its predeclared role. It cannot be repaired with diagnostic true delta. Case3 is legal but loose and remains in core.",
+ "information_tracks":"Target-source differences change calibration information. Bridge-target and bridge-ordinary share the same available Cs,Ct,D; target ignores optional Cs/D. Strong target and bound-pool are both reported. Fixed total allocation pair1/8 has36 blocks but different target share; not an algorithm improvement at identical information.",
+ "stop":"Attempt10x512 once; all failed/nonconverged records retained. Audit and fixed first-rep replays after completion. No algorithm modifications during confirmation. Complete report even if bridge is not uniformly preferable; this is not permission to declare all scientific goals successful.",
+ "cases":[
+  {"name":"C0_normal_unseen_matched","ns":32,"nt":4,"rho_source":0.75,"rho_target":0.75,"D":1.0,"distribution":"normal","effect":3.25},
+  {"name":"C1_t5_tight_N4","pair_id":1,"ns":32,"nt":4,"rho_source":0.8,"rho_target":0.94,"D":4.0,"distribution":"t5","effect":3.25},
+  {"name":"C2_t3_tight_N12","ns":32,"nt":12,"rho_source":0.8,"rho_target":0.925,"D":3.3,"distribution":"t3","effect":3.25},
+  {"name":"C3_t5_legal_loose","ns":32,"nt":32,"rho_source":0.85,"rho_target":0.85,"D":5.0,"distribution":"t5","effect":3.25},
+  {"name":"C4_global_null_targetN4","ns":32,"nt":4,"rho_source":0.8,"rho_target":0.92,"D":3.0,"distribution":"t5","effect":0.0,"truth":"global_null"},
+  {"name":"C5_singleton_partial_null","ns":32,"nt":4,"rho_source":0.8,"rho_target":0.94,"D":4.0,"distribution":"t5","effect":7.5,"truth":"single_study_only"},
+  {"name":"C6_mixed_sign_partial_null","ns":32,"nt":12,"rho_source":0.8,"rho_target":0.925,"D":3.3,"distribution":"t3","effect":7.0,"mixed_sign_null":true},
+  {"name":"C7_dense_continuous","ns":32,"nt":12,"rho_source":0.8,"rho_target":0.9,"D":3.0,"distribution":"t5","effect":3.25,"fraction":0.8,"continuous":true,"effect_jitter":0.65},
+  {"name":"C8_fixed36_more_target","pair_id":1,"ns":4,"nt":32,"rho_source":0.8,"rho_target":0.94,"D":4.0,"distribution":"t5","effect":3.25},
+  {"name":"X9_underestimated_external_bound","ns":32,"nt":4,"rho_source":0.8,"rho_target":0.96,"D":2.0,"distribution":"t5","effect":3.25,"outside_bound":true}
+ ]
+}

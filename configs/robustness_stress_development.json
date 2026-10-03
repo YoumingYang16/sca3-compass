@@ -1,0 +1,23 @@
+{
+  "phase": "DEVELOPMENT_ONLY",
+  "cases": [
+    {"name":"t5_n16","distribution":"t5","rho":0.8,"n":16,"effect":3.5},
+    {"name":"t5_n256","distribution":"t5","rho":0.8,"n":256,"effect":3.5},
+    {"name":"t8","distribution":"t8","rho":0.8,"n":64,"effect":3.5},
+    {"name":"t2.2","distribution":"t2.2","rho":0.8,"n":64,"effect":3.5},
+    {"name":"t1.5_infinite_variance","distribution":"t1.5","rho":0.8,"n":64,"effect":3.5},
+    {"name":"radial_mixture","distribution":"mixture","rho":0.8,"n":64,"effect":3.5},
+    {"name":"t5_gene_dependence","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"gene_rho":0.4},
+    {"name":"t5_near_duplicate_studies","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"study_rho":0.99},
+    {"name":"t5_toeplitz","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"pipeline_kind":"toeplitz"},
+    {"name":"t5_independent_study_radii","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"study_specific_radial":true},
+    {"name":"t5_pipeline_heterogeneity","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"pipeline_heterogeneity":true},
+    {"name":"t5_skew_additive","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"skew":0.5},
+    {"name":"t5_calibration_AR","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"calibration_row_rho":0.9},
+    {"name":"t5_covariance_shift","distribution":"t5","rho":0.1,"n":64,"effect":3.5,"calibration_rho":0.95},
+    {"name":"t5_tail_shift","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"calibration_distribution":"normal"},
+    {"name":"t5_global_null","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_single_study_null","distribution":"t5","rho":0.8,"n":64,"effect":8,"truth":"single_study_only"},
+    {"name":"t5_sparse","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"fraction":0.02}
+  ]
+}

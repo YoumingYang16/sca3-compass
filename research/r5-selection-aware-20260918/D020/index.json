@@ -1,0 +1,144 @@
+{
+  "rows": [
+    {
+      "case": 0,
+      "rep": 0,
+      "path": "raw/case-00/rep-00000.json.gz",
+      "sha": "f611e5b19a80acc9aeeb2600e986b552533ab895b9dd3d4fcbb478169084a52d",
+      "status": "completed"
+    },
+    {
+      "case": 1,
+      "rep": 0,
+      "path": "raw/case-01/rep-00000.json.gz",
+      "sha": "4f61dc37f74588b5f93108d7b76ebdee9bbfad38a6f1a79be22225989409cac1",
+      "status": "completed"
+    },
+    {
+      "case": 0,
+      "rep": 1,
+      "path": "raw/case-00/rep-00001.json.gz",
+      "sha": "f0c7daea6dde7f0249dc4659911ea797ae6a460b6b4d81619b9deb59d40ea6c9",
+      "status": "completed"
+    },
+    {
+      "case": 1,
+      "rep": 1,
+      "path": "raw/case-01/rep-00001.json.gz",
+      "sha": "d8244e66d7a3e979e9712774e63e2fa2a4fb6588d0ed07621bd184bfc84d210b",
+      "status": "completed"
+    },
+    {
+      "case": 2,
+      "rep": 0,
+      "path": "raw/case-02/rep-00000.json.gz",
+      "sha": "7c0e2a08598cd2947b988fcc56cdf2aef6fb7dd845f43063d69a950ea6b7aed7",
+      "status": "completed"
+    },
+    {
+      "case": 2,
+      "rep": 1,
+      "path": "raw/case-02/rep-00001.json.gz",
+      "sha": "76ded0dbf83e339d6ebcb66aadc874327223b653318f401229b74aa499695fc1",
+      "status": "completed"
+    },
+    {
+      "case": 3,
+      "rep": 0,
+      "path": "raw/case-03/rep-00000.json.gz",
+      "sha": "e36813b7be722d49eca2b0663341085e632b2f967a6bf7a5890bb61f70733416",
+      "status": "completed"
+    },
+    {
+      "case": 3,
+      "rep": 1,
+      "path": "raw/case-03/rep-00001.json.gz",
+      "sha": "cfb6b46319c424a8e92f5a95cb231b87c50973826b46d44c165d450344f5cbae",
+      "status": "completed"
+    },
+    {
+      "case": 4,
+      "rep": 0,
+      "path": "raw/case-04/rep-00000.json.gz",
+      "sha": "63b3eb81fab6dd88ae224d50c97222af2dd921a93dfacfdd3186c4194219598d",
+      "status": "completed"
+    },
+    {
+      "case": 4,
+      "rep": 1,
+      "path": "raw/case-04/rep-00001.json.gz",
+      "sha": "e39c669c345270650f026a891ceff9c8aa287317d76b51c7ecd7d9166e1324cc",
+      "status": "completed"
+    },
+    {
+      "case": 6,
+      "rep": 0,
+      "path": "raw/case-06/rep-00000.json.gz",
+      "sha": "7d241a913fddd23b1d6e50ccd958a4a23b77c4cf17fad1a4f2ef921ac0ef3abd",
+      "status": "completed"
+    },
+    {
+      "case": 6,
+      "rep": 1,
+      "path": "raw/case-06/rep-00001.json.gz",
+      "sha": "d29d8c7e0b2858331166fb730cf465dee79527e6b8eccb24e60f681088604e70",
+      "status": "completed"
+    },
+    {
+      "case": 5,
+      "rep": 0,
+      "path": "raw/case-05/rep-00000.json.gz",
+      "sha": "f67f865eb957a11934faf9f12f78b1f254feb737985461262ba9a63ce3555ac9",
+      "status": "completed"
+    },
+    {
+      "case": 5,
+      "rep": 1,
+      "path": "raw/case-05/rep-00001.json.gz",
+      "sha": "a886b3673201c79fded29ae509e66064c4866f295f2c0b83685969a623f34787",
+      "status": "completed"
+    },
+    {
+      "case": 8,
+      "rep": 0,
+      "path": "raw/case-08/rep-00000.json.gz",
+      "sha": "ef73f35a98cf3ddde1b184397a660e66fe2e3ce9e07093e4522ee7864bc47c3e",
+      "status": "completed"
+    },
+    {
+      "case": 7,
+      "rep": 0,
+      "path": "raw/case-07/rep-00000.json.gz",
+      "sha": "f2edccab2d4de08ccf3dca482b04c6b235d9991f1d6dce33e6db803600479d92",
+      "status": "completed"
+    },
+    {
+      "case": 7,
+      "rep": 1,
+      "path": "raw/case-07/rep-00001.json.gz",
+      "sha": "19baf146d8cbe31c53aace30be61c38d498ff2da9b7ba169c173b08f55478e9a",
+      "status": "completed"
+    },
+    {
+      "case": 8,
+      "rep": 1,
+      "path": "raw/case-08/rep-00001.json.gz",
+      "sha": "aab8acce13834015bc38c47db6935c45c4f4d18441044d745881db3550b7f5ea",
+      "status": "completed"
+    },
+    {
+      "case": 9,
+      "rep": 0,
+      "path": "raw/case-09/rep-00000.json.gz",
+      "sha": "2ed4dd1ca42775c25a1768c4f9a26391a4984a3f1dd081e8310f74de6c884909",
+      "status": "completed"
+    },
+    {
+      "case": 9,
+      "rep": 1,
+      "path": "raw/case-09/rep-00001.json.gz",
+      "sha": "2d7970f9eec51f4d3b246ecd2c2f3744f5eb7715104e1d4ceeb6030d16467b2c",
+      "status": "completed"
+    }
+  ]
+}

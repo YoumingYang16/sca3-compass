@@ -1,0 +1,13 @@
+{
+  "version": "literature-1.0",
+  "selection": "Purposive SCA3/ataxia methods corpus, not a systematic review. Sources selected for natural history, molecular analysis, biomarkers and measurement limitations. No patient-level records are ingested.",
+  "sources": [
+    {"pmcid": "PMC9294347", "domain": "Natural history", "design": "Human observational cohort", "population": "SCA3 / Mainland China", "boundary": "Cohort-average progression is not an individual prognosis or a treatment effect."},
+    {"pmcid": "PMC7338806", "domain": "Fluid biomarkers", "design": "Human observational + mouse experiments", "population": "SCA3 carriers, controls and mice", "boundary": "Cross-species findings and biomarker associations do not establish a validated clinical surrogate endpoint."},
+    {"pmcid": "PMC12846992", "domain": "Molecular mechanisms", "design": "Human post-mortem + mouse transcriptomics", "population": "Human spinal cord and SCA3 mouse models", "boundary": "Human donor evidence and mouse experiments are distinct. Differential expression alone does not establish a therapeutic target."},
+    {"pmcid": "PMC12103481", "domain": "Biomarker synthesis", "design": "Narrative review", "population": "Multiple spinocerebellar ataxias", "boundary": "A review synthesizes other studies; it is not an independent participant cohort. Subtype-specific results cannot be transferred automatically."},
+    {"pmcid": "PMC11269489", "domain": "Measurement design", "design": "Expert consensus", "population": "Cerebellar ataxias", "boundary": "Consensus recommendations are not prospective validation of this platform or of a specific SCA3 intervention."},
+    {"pmcid": "PMC12440962", "domain": "Digital phenotyping", "design": "Human observational measurement study", "population": "Spinocerebellar ataxia and healthy controls", "boundary": "Clinic and daily-life measurements differ; observational measurement validity is not evidence of treatment benefit."}
+  ],
+  "not_indexed": [{"pmcid": "PMC11838669", "reason": "Existing snapshot is a medRxiv preprint under CC BY-NC-ND; retained in the original source registry, not repackaged in this new passage corpus."}]
+}

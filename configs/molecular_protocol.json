@@ -1,0 +1,39 @@
+{
+  "protocol_id": "molecular-methods-v1",
+  "status": "development_protocol_not_external_preregistration",
+  "created_on": "2026-09-15",
+  "question": "Directional cross-study discovery after analytic selection with dependent observations",
+  "primary_target": "At least r distinct comparable study environments have a positive (or negative) effect; opposite directions are separate hypotheses",
+  "alpha": 0.05,
+  "replication_r": 2,
+  "novelty_status": "not_established",
+  "primary_candidate": "Monte Carlo max-T pipeline calibration followed by directional Bonferroni partial conjunction and BY",
+  "candidate_scope": "known Gaussian pipeline covariance; fixed candidate specifications with comparable estimands",
+  "known_components_not_claimed_novel": ["max-T", "Monte Carlo rank p-values", "Bonferroni partial conjunction", "Benjamini-Yekutieli", "e-BH"],
+  "development_seed": 2026091501,
+  "validation_seed": 2026091502,
+  "validation_rule": "No automatic use of sealed real expression files. Synthetic validation uses separately seeded runs; it is not independent external research validation.",
+  "simulation": {
+    "genes": 256,
+    "studies": 4,
+    "pipelines": 6,
+    "repetitions": 400,
+    "null_draws": 131071,
+    "effect_z": 4.5,
+    "scenarios": [
+      {"name": "independent", "study_rho": 0.0, "pipeline_rho": 0.0, "gene_rho": 0.0, "distribution": "normal"},
+      {"name": "shared_controls", "study_rho": 0.65, "pipeline_rho": 0.8, "gene_rho": 0.0, "distribution": "normal"},
+      {"name": "correlated_genes", "study_rho": 0.65, "pipeline_rho": 0.8, "gene_rho": 0.35, "distribution": "normal"},
+      {"name": "near_duplicate_studies", "study_rho": 0.95, "pipeline_rho": 0.95, "gene_rho": 0.2, "distribution": "normal"},
+      {"name": "heavy_tail_stress", "study_rho": 0.65, "pipeline_rho": 0.8, "gene_rho": 0.2, "distribution": "t5"},
+      {"name": "covariance_misspecification", "study_rho": 0.65, "pipeline_rho": 0.1, "assumed_pipeline_rho": 0.9, "gene_rho": 0.2, "distribution": "normal"}
+    ]
+  },
+  "acceptance": {
+    "scientific_claim": "Requires a nontrivial advance beyond nearest methods, assumption-specific justification and external validation; software tests alone cannot pass this gate",
+    "simulation": "Report signed-hypothesis FDP, power, Monte Carlo uncertainty, paired power differences, failure cases and all scenarios",
+    "real_data": "No patient-level predictions; report observational associations only; no FDR-truth claims on unknown biological truth",
+    "holdout": "Metadata inspection allowed for eligibility; expression values remain sealed until a versioned analysis plan and disjoint study-family checks exist",
+    "writing": "Research records and technical derivations allowed; paper drafting and submission await user involvement"
+  }
+}

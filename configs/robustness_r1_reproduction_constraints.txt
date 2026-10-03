@@ -1,0 +1,8 @@
+# Observed on 2026-09-16, Python 3.12.14 / Windows 11.
+# Constraints for the numerical/research tools, not a complete platform lock.
+# Do not reinstall an active experiment environment during confirmation.
+numpy==2.5.3
+scipy==1.18.1
+threadpoolctl==3.6.0
+matplotlib==3.11.2
+pytest==8.4.2

@@ -1,0 +1,17 @@
+{
+  "status": "CURATED_SNAPSHOT_NOT_RESEARCH_ACCEPTANCE",
+  "intended_repo": "YoumingYang16/sca3-compass",
+  "visibility": "private",
+  "readme_source": "docs/GITHUB_README.md (publication index; not a frozen historical source)",
+  "R5_accepted": false,
+  "missing_or_excluded_files": [],
+  "policy_exclusions": [
+    "all raw/processed/heldout biological data",
+    "all simulation input and numerical arrays",
+    "credentials/environments/.git",
+    "unreviewed logs",
+    "large binaries and prior archives"
+  ],
+  "security": "Explicit allowlist + path checks + credential-pattern scan, not an absolute guarantee",
+  "frozen_originals_modified": false
+}

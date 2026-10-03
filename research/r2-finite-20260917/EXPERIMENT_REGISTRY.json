@@ -1,0 +1,13 @@
+{
+  "phase": "R2 finite calibration 2026-09-17",
+  "entries": [
+    {"id": "R2-WP1-engineering", "stage": "engineering", "status": "completed", "result": "WP1_RESULT.json", "warning": "tests are not statistical proof"},
+    {"id": "R2FC-D001", "stage": "development", "status": "completed_utility_failure_retained", "families": 768, "hard_failures": 0, "wall_seconds": 113.1489675000048, "freeze": "D001/freeze.json", "index": "D001/index.json", "summary": "D001/summary.json", "finding": "confidence-envelope protection nearly eliminates Power; known-nuisance references locate material kappa and shape cost"},
+    {"id": "R2FC-D002", "stage": "development_same_input_rescore", "status": "completed_costly_partial_power_recovery", "families": 256, "wall_seconds": 76.7239, "failures": 0, "protocol": "D002/protocol.json", "summary": "D002/summary.json", "finding": "PB normal13.30%,t5N12 8.09%,t3N12 31.74%, still far below strong reference"},
+    {"id": "R2FC-D003", "stage": "development_saved_p_rescore", "status": "completed", "families": 256, "summary": "D003/summary.json", "finding": "grid normalization improves normal13.30to27.21%,t5N12 8.09to19.12%,t3N12 31.74to46.69%; all still below strong"},
+    {"id": "R2FC-C001", "stage": "independent_confirmation_and_separate_boundaries", "status": "completed_PROVED_BUT_COSTLY", "families": 7680, "completed": 7680, "hard_failures": 0, "primary_numerical_failures": 0, "delta_numerical_failures": 0, "wall_seconds": 2743.323519800004, "protocol": "C001/protocol.json", "freeze": "C001/freeze.json", "index": "C001/index.json", "summary": "C001/summary.json", "started_utc": "2026-09-17T06:17:12.676169+00:00", "last_verified_utc": "2026-09-17T08:05:48+00:00", "finding": "15casesx512; one fixed confirmation, no reserve. M0 FDR max0.390625%, maximum simultaneous upper3.101271%; substantial Power losses to strong. Grid ablation improves all10nonnull M0 scenes; projection advantage not confirmed. Severe unbounded drift fails. No active experiment.", "audits": ["confirmation-replay.json", "saved-decision-audit.json", "final-frozen-tests.xml", "REVIEW_DELIVERY.md"]}
+  ],
+  "independent_R2_confirmations_used": 1,
+  "prior_confirmation_history": "Old R0073/R0076/R0078/KNPR-E001 remain archived with their original success/failure/scope. None confirms R2.",
+  "agents": "one main researcher and one existing independent reviewer; no new agents"
+}

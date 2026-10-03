@@ -1,0 +1,27 @@
+{
+  "stage": "OLD_INPUT_DEVELOPMENT_ONLY",
+  "cases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reps": [
+    0,
+    1
+  ],
+  "outer": 4095,
+  "meta": 4095,
+  "workers": 4,
+  "no_sample_extension": true,
+  "prior": "D009 radial exact same-input reference",
+  "confirmation": false,
+  "scope": "All original legal cases retained;9 explicitly OUTSIDE",
+  "stop": "20 input families; evidence gaps handled by mechanism, not repeat extension"
+}

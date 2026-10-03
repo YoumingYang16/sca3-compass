@@ -1,0 +1,713 @@
+{
+  "phase": "DEVELOPMENT",
+  "core54_source": "configs/robustness_core_development.json",
+  "core_weight": "equal1/54; stress not included inH",
+  "cases": [
+    {
+      "name": "normal_n16_rho0.1_z2.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.1_z3.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.1_z4.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.8_z2.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.8_z3.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.8_z4.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.95_z2.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.95_z3.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n16_rho0.95_z4.5",
+      "distribution": "normal",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.1_z2.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.1_z3.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.1_z4.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.8_z2.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.8_z3.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.8_z4.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.95_z2.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.95_z3.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n64_rho0.95_z4.5",
+      "distribution": "normal",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.1_z2.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.1_z3.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.1_z4.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.8_z2.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.8_z3.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.8_z4.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.95_z2.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.95_z3.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_n256_rho0.95_z4.5",
+      "distribution": "normal",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.1_z2.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.1_z3.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.1_z4.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.1,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.8_z2.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.8_z3.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.8_z4.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.8,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.95_z2.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.95_z3.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n16_rho0.95_z4.5",
+      "distribution": "t5",
+      "n": 16,
+      "rho": 0.95,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.1_z2.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.1_z3.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.1_z4.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.1,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.8_z2.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.8_z3.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.8_z4.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.8,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.95_z2.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.95_z3.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n64_rho0.95_z4.5",
+      "distribution": "t5",
+      "n": 64,
+      "rho": 0.95,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.1_z2.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.1_z3.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.1_z4.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.1,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.8_z2.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.8_z3.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.8_z4.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.8,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.95_z2.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 2.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.95_z3.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 3.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "t5_n256_rho0.95_z4.5",
+      "distribution": "t5",
+      "n": 256,
+      "rho": 0.95,
+      "effect": 4.5,
+      "stratum": "core",
+      "assumption_class": "matched_working_model"
+    },
+    {
+      "name": "normal_matched",
+      "distribution": "normal",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_matched",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "normal_small_calibration",
+      "distribution": "normal",
+      "rho": 0.95,
+      "n": 16,
+      "effect": 3.5,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "normal_global_null",
+      "distribution": "normal",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "truth": "global_null",
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_global_null",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "truth": "global_null",
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_singleton",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 8,
+      "truth": "single_study_only",
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_mixed_sign_only",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 8,
+      "mixed_sign_only": true,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_continuous",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "effect_jitter": 0.7,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "lognormal_continuous",
+      "distribution": "lognormal",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "effect_jitter": 0.7,
+      "assumption_class": "radial_misspecification",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_dense",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "effect_jitter": 0.7,
+      "fraction": 0.8,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "normal_dense",
+      "distribution": "normal",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "effect_jitter": 0.7,
+      "fraction": 0.8,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "t1.5_matched",
+      "distribution": "t1.5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "assumption_class": "in_scope",
+      "stratum": "stress"
+    },
+    {
+      "name": "normal_drift_null",
+      "distribution": "normal",
+      "rho": 0.5,
+      "calibration_rho": 0.3,
+      "n": 64,
+      "effect": 3.5,
+      "truth": "global_null",
+      "assumption_class": "outside_transport",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_severe_drift",
+      "distribution": "t5",
+      "rho": 0.95,
+      "calibration_rho": 0.1,
+      "n": 64,
+      "effect": 3.5,
+      "assumption_class": "outside_transport",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_loading",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "pipeline_heterogeneity": true,
+      "assumption_class": "outside_common_location",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_gene_dependence",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "gene_rho": 0.2,
+      "assumption_class": "outside_training_independence",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_calibration_dependence",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "calibration_row_rho": 0.5,
+      "assumption_class": "outside_calibration_independence",
+      "stratum": "stress"
+    },
+    {
+      "name": "t1.5_singleton_small",
+      "distribution": "t1.5",
+      "rho": 0.95,
+      "n": 16,
+      "effect": 8.0,
+      "truth": "single_study_only",
+      "assumption_class": "matched_working_model",
+      "stratum": "stress"
+    },
+    {
+      "name": "normal_singleton_small",
+      "distribution": "normal",
+      "rho": 0.95,
+      "n": 16,
+      "effect": 8.0,
+      "truth": "single_study_only",
+      "assumption_class": "matched_working_model",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_nonpositive_heterogeneous_null",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 8.0,
+      "truth": "single_study_only",
+      "null_pipeline_shift": 2.0,
+      "assumption_class": "noncentral_target_extension_unconfirmed",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_negative_study_correlation",
+      "distribution": "t5",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "study_rho": -0.2,
+      "assumption_class": "matched_working_model",
+      "stratum": "stress"
+    },
+    {
+      "name": "t5_calibration_lognormal",
+      "distribution": "t5",
+      "calibration_distribution": "lognormal",
+      "rho": 0.8,
+      "n": 64,
+      "effect": 3.5,
+      "assumption_class": "calibration_radial_misspecification",
+      "stratum": "stress"
+    }
+  ]
+}

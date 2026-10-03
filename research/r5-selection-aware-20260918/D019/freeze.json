@@ -1,0 +1,24 @@
+{
+  "files": {
+    "triangular_development.py": "b88e903b6ea6a50af26f56e2828dc3bbfada2e7e684755ddd51ccac555e7d543",
+    "triangular_calibration.py": "b020da7665fb4cb53a6ac1ccdd101a6c821645f2e8007c01017cb20af121eca1",
+    "ancillary_calibration.py": "8f280cf956a57aabe3ead31022bd257039ef0b238a4682b00c32b34357e76346",
+    "r5_common.py": "b4aa983394517b564319d1cb86e0fd7e3788b7f3ce4773f8480149117a05d379",
+    "r5_kernel.py": "523bf624d73f78a3c17d567d0ddcc3c79608c5a2965d6255b36146300f6e062a",
+    "conditional_reference.py": "b0d123203a792f88ca668e62f2c752bfc9efccfa19b32c79156df85a47123b0a",
+    "selective_reference.py": "b8a7f7dfb14cfea4852f043a6707b32116184c7ece424616c686ea5acb2c19b6",
+    "smooth_borrowing.py": "018ce1ef868b26ba116c83008fba52dc189814dd77de0b62d2d2976ecaf7dda5",
+    "selection_profile.py": "3e132d591f225887cca455b14acabed1d189320d48397a354e2c8182e5e1bab4",
+    "codesigned_profile.py": "13a8aadcc0d0cab9f37cd98c278dc4fe8295562eceb239335d7288115b440db7",
+    "switch_closure.py": "60d6a611ee96ec6fca9d013e706b7686f72732cf029a0530ee278b7eb1120455",
+    "soft_drift_closure.py": "55aad5a1be7f2bbdec1ff71cef18f1f5b7d85705a408734668d482be4dbffc43",
+    "joint_reference.py": "3457187d17fd3f4609361886fab3f636e3e7291fa1e723ad40b44105a3054819",
+    "continuous_profile.py": "94edcd30246e1ce5b6110a5f3551662aecb85a1cfffb2b9478d8fc8177f2c23f",
+    "D019_RULE.md": "a886db388f4d2582f2bac8a2f5feb2027e5a1ce85b6565e2756cff6f57f4fb55",
+    "TRIANGULAR_CALIBRATION.md": "634771d22ef8a6bf08ac7fa6ceb7803ca5f4712945ee86a24ab0b8f887ae8c8e",
+    "SELECTIVE_BRANCH_THEOREM.md": "750a846a5881bbec2ec0181966c45985feb091eb84365e0b3ababe6d9183a836",
+    "SMOOTH_SELECTIVE_E.md": "719fabd7bb748175f1c75eb04ed2add063af8aed4e4634cd25e9fc61d24d7ea8",
+    "test_triangular_calibration.py": "b29527450053cc87ef625a70ac67ac90bbe5cf276fa7cb3128ef9db7d1ee5433",
+    "protocol.json": "b9122979142f4ea763e9a27101319601ded389da41940fd7ba19b036dc44e752"
+  }
+}

@@ -1,0 +1,13 @@
+# V1 preflight review and main disposition
+
+2026-09-16 23:28HKT. One independent read-only reviewer, Nietzsche (01a0aac7-a9e4-7e93-8bcf-d216cce1b80d), no simulations/edits/subagents. Main inspected the identified code and implemented/ran the checks. This is clearance to run ONE fixed confirmation, not statistical acceptance.
+
+Initial findings: acceptance/analyzer inconsistency, unbound analysis source, incomplete count/budget validation. Main adopted the stricter gate before reading new DEV summaries, required archived analyzer+all source checks, registered-index/protocol identity and exact family membership, and added14 preflight tests. Primary K integration found structurally aligned; numerical repair does not create a new likelihood family or theorem.
+
+Subsequent DEV exposed raw marginal plug-in calibration warning6/32 erroneous null families (case77); raw guard remains uncertain rather than proven invalid. Before confirmation the protocol was explicitly amended to stronger EXISTING conditional ordinary controls: same K frontend, ordinary Bonferroni-PC with BY and with identical TRAIN pilot/eBH. All original/raw controls remain reported. This changes the earlier provisional raw-fair gatekeeper identity; it does NOT satisfy that superseded gate by fiat. Both new controls must pass the actual empirical validity and superiority gates. Their shared calibration weaknesses mean they are NOT independent evidence that K is valid.
+
+Reviewer endorsed the amended one-confirmation comparison after checking54*512+30*1024=58368,84unchanged cases,8labels and no existing V1 confirmation/matching seed. Allocated endpoints:42 paired,1344 FDR,1176 reserved local; .02+.02+.01=.05. Candidate digest matched; ten checked scientific dependencies and primary K matched DEV. Reviewed plan SHA256:3e1497fe37e3b558add4860d3c4fb02ea39393b362fda52381275054c042e630.
+
+Precision limitation accepted BEFORE new outcomes: with n1024, allocated FDP upper bound clears.05 only when mean FDP is about<=2.141%; if it were3.125% as the single-event DEV estimate, upper is about6.389%, insufficient. DEV one event is noisy, prior larger K evidence is lower, but no guarantee of clearance. Fixed counts are unchanged; no sample extension or reserve if inconclusive.
+
+Main disposition: scientifically defensible as EMPIRICAL_ONLY research comparison, never MODEL_SUPPORTED or a universal robustness guarantee. Proceed only after current intended software suite and final targeted checks pass. No inflation of false discovery rate to gain Power; same nominal.05 for all. Finite calibration and severe drift remain explicit limitations irrespective of confirmation outcome.

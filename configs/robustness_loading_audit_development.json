@@ -1,0 +1,16 @@
+{
+  "phase":"DEVELOPMENT_ONLY",
+  "purpose":"Component-interference and lost-geometry-power regression. Compare legacy, strict raw intersection and negative-evidence veto; same gates/scales for all simple baselines. No independent confirmation.",
+  "cases":[
+    {"name":"normal_uniform","distribution":"normal","rho":0.8,"n":64,"effect":3.5},
+    {"name":"t5_uniform","distribution":"t5","rho":0.8,"n":64,"effect":3.5},
+    {"name":"normal_down_covariance","distribution":"normal","rho":0.1,"calibration_rho":0.95,"n":64,"effect":3.5},
+    {"name":"t5_down_covariance","distribution":"t5","rho":0.1,"calibration_rho":0.95,"n":64,"effect":3.5},
+    {"name":"t5_loading_z3.5","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"pipeline_heterogeneity":true},
+    {"name":"t5_loading_z2.5","distribution":"t5","rho":0.8,"n":64,"effect":2.5,"pipeline_heterogeneity":true},
+    {"name":"t5_loading_sparse","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"fraction":0.02,"pipeline_heterogeneity":true},
+    {"name":"t1.5_loading","distribution":"t1.5","rho":0.8,"n":64,"effect":3.5,"pipeline_heterogeneity":true},
+    {"name":"t5_toeplitz_loading","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"pipeline_kind":"toeplitz","pipeline_heterogeneity":true},
+    {"name":"t5_negative_pipeline_noise","distribution":"t5","rho":-0.15,"n":64,"effect":3.5}
+  ]
+}

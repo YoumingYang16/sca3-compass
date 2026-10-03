@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "learning_theories": [
+    "retrieval practice",
+    "mastery learning",
+    "cognitive load management",
+    "teach-back",
+    "confidence calibration"
+  ],
+  "modules": [
+    {
+      "id": "foundations",
+      "number": "01",
+      "title": "Build a reliable mental model",
+      "description": "Separate genes, symptoms, clinical observations and uncertainty without collapsing them into one deterministic story.",
+      "objectives": [
+        "Explain what SCA3 refers to in plain language",
+        "Distinguish diagnosis from prediction",
+        "Recognize why individual courses vary"
+      ],
+      "estimated_minutes": 9,
+      "mastery_threshold": 0.8
+    },
+    {
+      "id": "inheritance",
+      "number": "02",
+      "title": "Reason about inheritance carefully",
+      "description": "Use worked family scenarios to understand autosomal-dominant inheritance while protecting privacy and avoiding personal inference.",
+      "objectives": [
+        "Interpret a simple inheritance scenario",
+        "Identify what a family tree cannot establish",
+        "Prepare questions for genetic counselling"
+      ],
+      "estimated_minutes": 12,
+      "mastery_threshold": 0.8
+    },
+    {
+      "id": "evidence",
+      "number": "03",
+      "title": "Read evidence without overclaiming",
+      "description": "Compare a cohort estimate, a biomarker association, a cell experiment and a clinical trial record.",
+      "objectives": [
+        "Match a claim to the right evidence type",
+        "Find uncertainty and study limitations",
+        "Reject unsupported treatment claims"
+      ],
+      "estimated_minutes": 14,
+      "mastery_threshold": 0.8
+    },
+    {
+      "id": "trials",
+      "number": "04",
+      "title": "Understand a clinical trial",
+      "description": "Learn how eligibility, endpoints, sample size, follow-up and trial status change what a record can tell you.",
+      "objectives": [
+        "Locate primary outcomes and study status",
+        "Explain why a registry entry is not a result",
+        "Interpret power as a design property"
+      ],
+      "estimated_minutes": 15,
+      "mastery_threshold": 0.8
+    },
+    {
+      "id": "visits",
+      "number": "05",
+      "title": "Prepare for a focused care conversation",
+      "description": "Turn a long list of observations into a concise timeline and prioritized questions without asking the system for a diagnosis.",
+      "objectives": [
+        "Separate observations from interpretations",
+        "Prioritize questions for a clinician",
+        "Identify information that should remain private"
+      ],
+      "estimated_minutes": 11,
+      "mastery_threshold": 0.8
+    }
+  ]
+}

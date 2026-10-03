@@ -1,0 +1,61 @@
+{
+  "phase": "DEVELOPMENT_NOT_CONFIRMATION",
+  "created_local": "2026-09-16T13:32:00+08:00",
+  "R1_closed_evidence": "artifacts/robustness/R0073-confirmation-analysis.json",
+  "R1_analysis_sha256": "66943c303966c74d149b9b7f0d8e6ac062e252c529d38ef5aa63525513abf765",
+  "theme_count": 1,
+  "theme": "Necessity and efficiency cost of full nuisance-max protection",
+  "versions": ["R2P_plugin_no_bootstrap", "R2K_calibration_rho_only_guard"],
+  "primary_multiplier": 0.5,
+  "candidate_selection_data_notice": "R0072 is DEV. Completed R0073 C1 has informed R2 direction and eligibility reasoning, so it is ALSO R2-development evidence, never R2 confirmation. Original frozen R1 C1 inference remains in its original scope.",
+  "R2P": {
+    "mechanism": "Remove the finite nuisance-max bank; retain original nuisance fit, learned nonnegative profiles, gamma, same pilot conversion and no own-Q weights. Exact ablation of the already archived plugin version, not a new inferential theorem.",
+    "prediction": "Recover measured guard Power loss and reduce computation while retaining empirical validity over tested working regimes.",
+    "falsifier": "Untreated composite-null FDR failure in targeted calibration stress, important utility regression, or failed exact plugin replay."
+  },
+  "R2K": {
+    "mechanism": "Hold original target study shape, radial df and eta^2=(1-rho)*scatter fixed. Resample calibration vectors B=16; take rho_star=max(original and fitted bootstrap rhos), retaining original projection directions. Replace scatter by eta^2/(1-rho_star). For positive statistics all conditional scales grow with kappa(rho), so one rho_star replaces scanning the bank. Any calibration resample failure disables the affected K fold; original-fit failure is a visible experiment failure.",
+    "prediction": "Retain protection for calibration-to-mean scale uncertainty without paying for unrelated target-shape/radial maximization.",
+    "falsifier": "No usable Power gain over frozen R1, invalid FDR under matched stresses, or scalar-max equivalence failure.",
+    "assumptions": "Same common-location, compound pipeline shape and independent calibration/genes as R1; frozen target fit is still estimated, not known. B16 maximum is NOT a confidence bound or general FDR certificate."
+  },
+  "shared_rules": [
+    "No new projection family, own-Q weighting, truth-based gate, actual-FDR threshold tuning or parameter grid.",
+    "All existing ordinary/support/weighted Bonferroni and empirical/BY-adjusted Simes baselines receive the SAME P or K frontend and original four pilot multiplier opportunities.",
+    "Same whole-family inputs and seed streams for all methods; no deletion of old adverse scenes.",
+    "Existing R1 and R0 results remain frozen; candidate outputs and failures are written to new run IDs.",
+    "For calibration resampling parity, consume the historical TRAIN-gene random indices before each calibration-row draw, without using those discarded indices to fit target nuisance.",
+    "Full original-parameter replay and all rho-max monotonicity/coherence tests before scientific comparison."
+  ],
+  "existing_development": {
+    "run_id": "R0074",
+    "source": "R0072",
+    "cases": "all original76",
+    "reps": "all original100 each",
+    "whole_family_limit": 7600,
+    "reuse": "Checksummed original input and original fitted nuisance/shape/profile/calibration resample receipts may be reused for paired mechanism decomposition. Cached run time is NOT deployment speed. Independently refit selected original inputs to verify replay parity.",
+    "job_limit_seconds": 2400,
+    "workers_max": 8
+  },
+  "targeted_fresh_development": {
+    "run_id": "R0075",
+    "seed": 7505173,
+    "repetitions_per_case": 500,
+    "whole_family_limit": 4000,
+    "job_limit_seconds": 2400,
+    "workers_max": 8,
+    "scope_note": "Matched structural model but smaller calibration/higher-rho than the prior C1 numerical range. Diagnostic extension, not existing R1 guarantee. Keep all results and do not relabel failures after seeing them.",
+    "cases": [
+      {"name": "normal_n4_rho095_null", "distribution": "normal", "n": 4, "rho": 0.95, "effect": 8, "truth": "global_null"},
+      {"name": "t5_n4_rho095_singleton", "distribution": "t5", "n": 4, "rho": 0.95, "effect": 8, "truth": "single_study_only"},
+      {"name": "t15_n8_rho095_singleton", "distribution": "t1.5", "n": 8, "rho": 0.95, "effect": 8, "truth": "single_study_only"},
+      {"name": "t22_n8_rho095_singleton", "distribution": "t2.2", "n": 8, "rho": 0.95, "effect": 8, "truth": "single_study_only"},
+      {"name": "normal_n8_rho098_null", "distribution": "normal", "n": 8, "rho": 0.98, "effect": 8, "truth": "global_null"},
+      {"name": "t5_n8_rho098_singleton", "distribution": "t5", "n": 8, "rho": 0.98, "effect": 8, "truth": "single_study_only"},
+      {"name": "t5_n8_rho095_signal", "distribution": "t5", "n": 8, "rho": 0.95, "effect": 3.5},
+      {"name": "normal_n8_rho095_dense", "distribution": "normal", "n": 8, "rho": 0.95, "effect": 3.5, "fraction": 0.8, "effect_jitter": 0.7}
+    ]
+  },
+  "decision_rule": "Fixed development counts, no extra draws to chase significance. Evaluate full paired means, FDR and family Monte Carlo uncertainty, local losses and measured cost. At most one P/K version advances. Prefer simpler P if no unresolved reliability counterexample; choose K only if its protective mechanism has evidence and its cost is justified. If neither is adequate, retain scoped R1 and report the unclosed broader goal; no automatic third theme/search. Fresh C2 plan, errors and counts must be frozen only after selecting a defensible version; C2 remains exclusive .025 and can run only once.",
+  "provenance": "SIMULATION_NOT_PATIENT_DATA"
+}

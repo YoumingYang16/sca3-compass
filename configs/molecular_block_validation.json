@@ -1,0 +1,14 @@
+{
+  "protocol_id":"animal-blocked-estimation-v1",
+  "created_on":"2026-09-15",
+  "accession":"GSE107958",
+  "role":"retrospective internal predictive evaluation, not untouched external validation",
+  "split":"All 6 x 8 leave-one-disease-animal/one-control-animal pairs; exclude every brain region of both animals from fitting",
+  "models":["zero_effect","unshrunk","identity_mixture","structured_mixture"],
+  "prior_variance_scales":[0.04,0.16,0.64,2.56],
+  "noise":"Within-training-group paired residual correlation, 50% identity shrinkage; plug-in Gaussian approximation",
+  "feature_rule":"Provided upstream-filtered universe. Only finite training effects with positive SE in every region; no outcome-based selection or hyperparameter tuning",
+  "target":"Squared prediction error for held-out case-control log2 sum-scaled expression contrasts, averaged over genes and available regions",
+  "uncertainty":"Folds overlap: 48 paired folds are NOT 48 independent experiments. Report paired fold errors and aggregate descriptive MSE without iid fold confidence intervals",
+  "limits":["Small animal cohort", "Original expression-unit ambiguity retained", "Upstream feature filtering used all source samples", "Held-out contrast is noisy, not the true biological effect", "Models are existing empirical-Bayes constructions, not new inventions"]
+}

@@ -1,0 +1,11 @@
+.env
+.env.*
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/dist*/
+*.sqlite3
+*.npz
+*.gz
+*.zip
+*.tsbuildinfo

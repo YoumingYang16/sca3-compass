@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "scope": "Public existing molecular data; no new human study and no drug-efficacy research",
+  "datasets": [
+    {"accession":"GSE309548","role":"development_existing","organism":"human","material":"spinal cord","family":"GSE309548_related","format":"kallisto_tar","local_expression":"data/raw/GSE309548_RAW.tar","expression":"GSE309548_RAW.tar","notes":["Previously explored; cannot be unseen validation","14 regional samples, 8 donors in existing analysis","Author estimated counts, not FASTQ"]},
+    {"accession":"GSE309535","role":"development","organism":"mouse","material":"spinal cord","family":"GSE309548_related","format":"kallisto_tar","expression":"GSE309535_RAW.tar","notes":["Material corrected from brain to spinal cord after official GEO metadata audit on 2026-09-15","Age strata are not within-animal longitudinal visits","Sample and annotation audit required"]},
+    {"accession":"GSE145613","role":"development","organism":"mouse","material":"brain","family":"GSE145613","format":"counts_csv","expression":"GSE145613_rawCounts.csv.gz","notes":["Design and sample mappings must be verified before inference"]},
+    {"accession":"GSE107958","role":"development","organism":"mouse","material":"multiple brain regions","family":"GSE107958_GSE108069","format":"filtered_counts_tsv","expression":"GSE107958_Counts_min4cpm.tab.gz","notes":["Pre-filtered counts; shared animals across regions may occur"]},
+    {"accession":"GSE108069","role":"sensitivity_only","organism":"mouse","material":"blood","family":"GSE107958_GSE108069","format":"filtered_counts_tsv","expression":"GSE108069_counts_sca3_blood_min4cpm.txt.gz","notes":["Not independent of related brain study until verified","Do not pool blood and brain estimands"]},
+    {"accession":"GSE117605","role":"sensitivity_only","organism":"mouse","material":"brain","family":"GSE117605","format":"fpkm_xlsx","expression":"GSE117605_Biswa_FPKMs_for_all_SCA3_genotypes_and_KO_2014_RNA-seq_.xlsx.gz","notes":["FPKM is not a count-model input; expression analysis disabled"]},
+    {"accession":"GSE96826","role":"sensitivity_only","organism":"human","material":"iPSC","family":"GSE96826","format":"cel_tar","expression":"GSE96826_RAW.tar","notes":["Mixed SCA2/SCA3 and controls; clone is not donor","Requires platform-specific preprocessing"]},
+    {"accession":"GSE93713","role":"sensitivity_only","organism":"human","material":"iPSC","family":"GSE93713","format":"cel_tar","expression":"GSE93713_RAW.tar","notes":["Disease versus corrected line; not healthy case-control replication","Cultures do not count as independent patients"]},
+    {"accession":"GSE320100","role":"sealed_candidate","organism":"mouse","material":"peripheral nerve","family":"GSE320015_GSE329323_related","format":"kallisto_tar","expression":"GSE320100_RAW.tar","notes":["Held expression data; independence and comparable estimand not established","Not a confirmed external validation cohort"]}
+  ]
+}

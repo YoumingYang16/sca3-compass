@@ -1,0 +1,43 @@
+{
+  "version": "R4-TCB-0.2.0",
+  "execution_status": "COMPLETE_SCOPED_R4_RESEARCH",
+  "status_time_hkt": "2026-09-18T13:53:00+08:00",
+  "scientific_grades": {
+    "validity": "MODEL_CONDITIONAL_EXACT_ARITHMETIC_DERIVATION_AND_REGISTERED_MC_SUPPORT",
+    "utility": "CONFIRMED_LOCAL_GAINS_WITH_SEVERE_LEGAL_LOOSE_BOUND_LOSS",
+    "overall_advantage": "NOT_ESTABLISHED_REGISTERED_GATE_FAILED",
+    "superiority_to_strong_comparators": "NOT_ESTABLISHED_CORE_POWER_LOWER",
+    "novelty": "CORRECT_SCOPED_RESULTS_PRIORITY_NOT_ESTABLISHED",
+    "application": "REAL_TARGET_CALIBRATION_AND_EXTERNAL_BOUND_NOT_CERTIFIED"
+  },
+  "confirmation": {
+    "id": "R4-C001",
+    "families_completed": 5120,
+    "families_planned": 5120,
+    "repetitions_per_scene": 512,
+    "hard_failures": 0,
+    "formal_confirmation_attempts": 1,
+    "reserved_confirmation_attempts": 0,
+    "reference_draws_per_analysis": 4095,
+    "intervals": 133,
+    "comparison_budget_cap": 160,
+    "reporting_alpha": 0.025,
+    "nominal_FDR": 0.05,
+    "summary_sha256": "10064fbe7a9684fd58d7a6f5310a944c3de2c48fad40001742af6dc857a097b3",
+    "freeze_sha256": "0fa6e578932db51caba13a92ba2e474e234392f6e8771af5ecf1e3b4b517a6a5"
+  },
+  "recommended_modes": {
+    "baseline": "target_only, conditional on genuine independent target-matched calibration",
+    "optional": "bridge_count, only with a separately justified fixed external D; no oracle-based selector"
+  },
+  "unresolved": [
+    "No certified real target zero-calibration bank or external drift bound",
+    "No universal efficiency dominance; legal loose-bound regression remains",
+    "Underestimated D can inflate FDR, confirmed in the predeclared boundary",
+    "No raw-matrix or PC-power minimax frontier; information bound is pivot-only",
+    "No established originality priority or publication guarantee",
+    "No full floating-point certificate or arbitrary-machine replay certification"
+  ],
+  "packaging_status_authority": "DELIVERY_MANIFEST.json and delivery/ARCHIVE_RECEIPT.json; absent receipt means not yet sealed",
+  "next_action_after_seal": "STOP_NO_R5_NO_FURTHER_SIMULATION_NO_UPLOAD"
+}

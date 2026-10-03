@@ -1,0 +1,37 @@
+{
+  "id": "D020",
+  "stage": "OLD_INPUT_DEVELOPMENT_ONLY",
+  "client_date": "2026-10-03",
+  "candidate": "R5-A0.14-ACTION-SELECTIVE-DEVELOPMENT",
+  "cases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reps": [
+    0,
+    1
+  ],
+  "outer_draws": 4095,
+  "meta_draws": 4095,
+  "workers": 4,
+  "reused_input_families": 20,
+  "source": "D019 and underlying R4 C001, all already development",
+  "mechanism": "K1 three logconcave action kernels: target, variance bridge, source; fixed c=sigma,tau=sigma*sqrt3/pi",
+  "paired_controls": "ALL D019 controls; added source with Ct DIR, half target/source and equal target/bridge/source e mixtures",
+  "frozen_values_not_tuned": true,
+  "unit": "whole family; case1/8 paired, not independent genes",
+  "stop": "Exactly20; no sample extension on result. No final utility/novelty acceptance from this diagnostic.",
+  "precision": "Two per scenario is mechanism diagnosis only; paired observations and all raw scores retained.",
+  "confirmation": false,
+  "scope": "legal cases0-8, X9 outside D premise separately visible",
+  "failure_policy": "All computational failures retained; zero-family conservative failures not removed",
+  "resources": "4workers,1BLAS thread; finite selected-pair caps,1800s collector timeout not claimed per-worker kill"
+}

@@ -1,0 +1,7 @@
+# Verified runtime2026-09-17: CPython3.12.14, Windows11 x64.
+# Existing environment reused; nothing installed for R3.
+numpy==2.5.3
+scipy==1.18.1
+threadpoolctl==3.6.0
+pytest==8.4.2
+matplotlib==3.11.2

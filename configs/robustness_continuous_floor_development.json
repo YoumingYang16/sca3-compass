@@ -1,0 +1,18 @@
+{
+  "phase":"DEVELOPMENT_ONLY",
+  "purpose":"Mechanism discrimination for continuous-effect scale with assumed null-mixture mass >=.5; unconstrained ablation and equally scaled simple comparators. Includes dense-effect assumption violations. No claim of identification or confirmation.",
+  "cases":[
+    {"name":"normal_matched_high","distribution":"normal","rho":0.95,"n":64,"effect":3.5},
+    {"name":"t5_matched_high","distribution":"t5","rho":0.8,"n":64,"effect":3.5},
+    {"name":"t5_continuous","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"effect_jitter":0.7},
+    {"name":"lognormal_continuous","distribution":"lognormal","rho":0.8,"n":64,"effect":3.5,"effect_jitter":0.7},
+    {"name":"normal_moderate_cov_null","distribution":"normal","rho":0.5,"calibration_rho":0.3,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_severe_cov_signal","distribution":"t5","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5},
+    {"name":"t1.5_single_study","distribution":"t1.5","rho":0.8,"n":64,"effect":8,"truth":"single_study_only"},
+    {"name":"t5_sparse","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"fraction":0.02},
+    {"name":"normal_isotropic_upshift_null","distribution":"normal","rho":0.8,"calibration_rho":0.1,"study_rho":0,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_isotropic_upshift_signal","distribution":"t5","rho":0.8,"calibration_rho":0.1,"study_rho":0,"n":64,"effect":3.5},
+    {"name":"t5_dense_floor_violation","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"effect_jitter":0.7,"fraction":0.8},
+    {"name":"normal_dense_floor_violation","distribution":"normal","rho":0.8,"n":64,"effect":3.5,"effect_jitter":0.7,"fraction":0.8}
+  ]
+}

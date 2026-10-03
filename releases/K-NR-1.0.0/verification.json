@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "all_84_case_arrays_recomputed": true,
+  "paired_and_local_bounds_recomputed": true,
+  "maximum_summary_difference": 0.0,
+  "scientific_pass": true,
+  "report_budget": 0.05,
+  "software_tests": {
+    "tests": 2409,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 2
+  }
+}

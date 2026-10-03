@@ -1,0 +1,53 @@
+{
+  "phase_status": "COMPLETE_WITH_LIMITATIONS",
+  "scientific_status": "PROVED_BUT_COSTLY",
+  "novelty_status": "TASK_SPECIFIC_SYNTHESIS_PRIORITY_UNESTABLISHED",
+  "status_verified_utc": "2026-09-17T08:05:48+00:00",
+  "primary_version": "R2-PB-1.0.0",
+  "primary_output": "PB_grid",
+  "scope": "Complete finite-calibration and learning-dependence argument in M0 under ideal arithmetic/randomization; not global superiority, machine-arithmetic certification or clinical release",
+  "v1_preserved": "K-NR-1.0.0 unchanged with its original EMPIRICAL_ONLY scope",
+  "v1_zip_sha256": "e4bd2e6061bc886796916013e30ae5c05b86c543ab3c4b129f8173afbdba8fe2",
+  "confirmation": {
+    "id": "R2FC-C001",
+    "attempts": 1,
+    "reserve_attempts": 0,
+    "families": 7680,
+    "families_per_scene": 512,
+    "model_scenes": 13,
+    "outside_model_scenes": 2,
+    "reported_two_sided_intervals": 338,
+    "predeclared_interval_cap": 512,
+    "simultaneous_error_budget": 0.05,
+    "hard_failures": 0,
+    "primary_numerical_failures": 0,
+    "sensitivity_numerical_failures": 0,
+    "wall_seconds": 2743.323519800004,
+    "source": "C001/summary.json",
+    "index_sha256": "4d1cc3d3794248eac991e18dc714c800bdf5e96627ef2ea585467f7a778fd0a7",
+    "freeze_sha256": "68068c9f1cf68eb46700b18287b0d226a8a3c2ff1c5ea592e036ee88a2538d8e"
+  },
+  "audit": {
+    "frozen_tests_passed": 16,
+    "saved_PB_and_Delta_decisions_replayed": 32768,
+    "specified_inputs_regenerated_and_methods_replayed": 4,
+    "actual_invocation_receipt": "actual-invocation.json",
+    "actual_invocation_rejections": 17,
+    "actual_invocation_data_kind": "SIMULATED_NOT_BIOLOGICAL_DISCOVERIES",
+    "independent_internal_reviewer": "REVIEW_DELIVERY.md",
+    "review_documentary_corrections_integrated": true,
+    "external_peer_review": false
+  },
+  "unresolved": [
+    "Substantial detection-efficiency deficits relative to practical strong references",
+    "Projection/mixture benefit beyond the same-front ordinary component is not confirmed by the predeclared simultaneous comparisons",
+    "Severe unbounded target/calibration drift remains invalid; externally bounded sensitivity is not learned transport",
+    "No qualified real-data input bank satisfying the complete model has been established",
+    "Worldwide methodological priority and high-impact publication contribution remain unestablished",
+    "No universal finite-precision certificate for the full executable"
+  ],
+  "next_active_command": null,
+  "active_scientific_jobs": [],
+  "automatic_next_phase": false,
+  "completion_rule": "Finish bounded R2 proof/implementation/frozen evidence/boundary handoff, preserve failures and stop; not completion of all historical aspirations"
+}

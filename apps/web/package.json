@@ -1,0 +1,26 @@
+{
+  "name": "sca3-compass-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts --host 127.0.0.1",
+    "build": "tsc -b && vite build --config vite.config.ts",
+    "build:public": "tsc -b && vite build --config vite.config.ts --mode public --outDir dist-public",
+    "preview": "vite preview --config vite.config.ts --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}

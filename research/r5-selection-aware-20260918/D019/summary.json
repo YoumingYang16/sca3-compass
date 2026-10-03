@@ -1,0 +1,1147 @@
+{
+  "stage": "DEVELOPMENT_ONLY",
+  "n": 20,
+  "rows": [
+    {
+      "case": 0,
+      "means": {
+        "smooth": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "target": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "source_bound": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "bridge": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "variance_bridge": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_bridge": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_variance_bridge": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_strong_target": {
+          "power": 0.38235294117647056,
+          "fdp": 0.0,
+          "tp": 19.5,
+          "fp": 0.0,
+          "discoveries": 19.5
+        },
+        "R4_strong_pool_bound": {
+          "power": 0.5784313725490196,
+          "fdp": 0.0,
+          "tp": 29.5,
+          "fp": 0.0,
+          "discoveries": 29.5
+        },
+        "R4_target": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_source_bound": {
+          "power": 0.19607843137254902,
+          "fdp": 0.0,
+          "tp": 10.0,
+          "fp": 0.0,
+          "discoveries": 10.0
+        },
+        "R4_bridge": {
+          "power": 0.0784313725490196,
+          "fdp": 0.0,
+          "tp": 4.0,
+          "fp": 0.0,
+          "discoveries": 4.0
+        }
+      },
+      "radial_power": {
+        "target": 0.0,
+        "source_bound": 0.19607843137254902,
+        "bridge": 0.0784313725490196,
+        "strong_target": 0.38235294117647056,
+        "strong_pool_bound": 0.5784313725490196,
+        "fixed_e_mix": 0.0,
+        "A0": 0.0,
+        "previous_A04": 0.0,
+        "previous_A05": 0.0,
+        "previous_A06": 0.0,
+        "conditional_target": 0.0,
+        "conditional_source_bound": 0.0,
+        "conditional_bridge": 0.0,
+        "conditional_variance_bridge": 0.0,
+        "conditional_mix": 0.0,
+        "conditional_variance_mix": 0.0
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 1,
+      "means": {
+        "smooth": {
+          "power": 0.5,
+          "fdp": 0.0,
+          "tp": 25.5,
+          "fp": 0.0,
+          "discoveries": 25.5
+        },
+        "target": {
+          "power": 0.23529411764705882,
+          "fdp": 0.0,
+          "tp": 12.0,
+          "fp": 0.0,
+          "discoveries": 12.0
+        },
+        "source_bound": {
+          "power": 0.6176470588235294,
+          "fdp": 0.0,
+          "tp": 31.5,
+          "fp": 0.0,
+          "discoveries": 31.5
+        },
+        "bridge": {
+          "power": 0.5882352941176471,
+          "fdp": 0.0,
+          "tp": 30.0,
+          "fp": 0.0,
+          "discoveries": 30.0
+        },
+        "variance_bridge": {
+          "power": 0.5882352941176471,
+          "fdp": 0.0,
+          "tp": 30.0,
+          "fp": 0.0,
+          "discoveries": 30.0
+        },
+        "mix_bridge": {
+          "power": 0.5588235294117647,
+          "fdp": 0.0,
+          "tp": 28.5,
+          "fp": 0.0,
+          "discoveries": 28.5
+        },
+        "mix_variance_bridge": {
+          "power": 0.5588235294117647,
+          "fdp": 0.0,
+          "tp": 28.5,
+          "fp": 0.0,
+          "discoveries": 28.5
+        },
+        "R4_strong_target": {
+          "power": 0.6176470588235294,
+          "fdp": 0.0,
+          "tp": 31.5,
+          "fp": 0.0,
+          "discoveries": 31.5
+        },
+        "R4_strong_pool_bound": {
+          "power": 0.5098039215686274,
+          "fdp": 0.0,
+          "tp": 26.0,
+          "fp": 0.0,
+          "discoveries": 26.0
+        },
+        "R4_target": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_source_bound": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_bridge": {
+          "power": 0.10784313725490197,
+          "fdp": 0.0,
+          "tp": 5.5,
+          "fp": 0.0,
+          "discoveries": 5.5
+        }
+      },
+      "radial_power": {
+        "target": 0.0,
+        "source_bound": 0.0,
+        "bridge": 0.10784313725490197,
+        "strong_target": 0.6176470588235294,
+        "strong_pool_bound": 0.5098039215686274,
+        "fixed_e_mix": 0.0,
+        "A0": 0.49019607843137253,
+        "previous_A04": 0.10784313725490197,
+        "previous_A05": 0.16666666666666666,
+        "previous_A06": 0.45098039215686275,
+        "conditional_target": 0.10784313725490197,
+        "conditional_source_bound": 0.3333333333333333,
+        "conditional_bridge": 0.38235294117647056,
+        "conditional_variance_bridge": 0.3529411764705882,
+        "conditional_mix": 0.24509803921568626,
+        "conditional_variance_mix": 0.23529411764705882
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 2,
+      "means": {
+        "smooth": {
+          "power": 0.6176470588235294,
+          "fdp": 0.0,
+          "tp": 31.5,
+          "fp": 0.0,
+          "discoveries": 31.5
+        },
+        "target": {
+          "power": 0.47058823529411764,
+          "fdp": 0.0,
+          "tp": 24.0,
+          "fp": 0.0,
+          "discoveries": 24.0
+        },
+        "source_bound": {
+          "power": 0.6470588235294117,
+          "fdp": 0.0,
+          "tp": 33.0,
+          "fp": 0.0,
+          "discoveries": 33.0
+        },
+        "bridge": {
+          "power": 0.6372549019607843,
+          "fdp": 0.0,
+          "tp": 32.5,
+          "fp": 0.0,
+          "discoveries": 32.5
+        },
+        "variance_bridge": {
+          "power": 0.6274509803921569,
+          "fdp": 0.0,
+          "tp": 32.0,
+          "fp": 0.0,
+          "discoveries": 32.0
+        },
+        "mix_bridge": {
+          "power": 0.6176470588235294,
+          "fdp": 0.0,
+          "tp": 31.5,
+          "fp": 0.0,
+          "discoveries": 31.5
+        },
+        "mix_variance_bridge": {
+          "power": 0.6176470588235294,
+          "fdp": 0.0,
+          "tp": 31.5,
+          "fp": 0.0,
+          "discoveries": 31.5
+        },
+        "R4_strong_target": {
+          "power": 0.7352941176470589,
+          "fdp": 0.0,
+          "tp": 37.5,
+          "fp": 0.0,
+          "discoveries": 37.5
+        },
+        "R4_strong_pool_bound": {
+          "power": 0.7254901960784313,
+          "fdp": 0.0,
+          "tp": 37.0,
+          "fp": 0.0,
+          "discoveries": 37.0
+        },
+        "R4_target": {
+          "power": 0.21568627450980393,
+          "fdp": 0.0,
+          "tp": 11.0,
+          "fp": 0.0,
+          "discoveries": 11.0
+        },
+        "R4_source_bound": {
+          "power": 0.6764705882352942,
+          "fdp": 0.0,
+          "tp": 34.5,
+          "fp": 0.0,
+          "discoveries": 34.5
+        },
+        "R4_bridge": {
+          "power": 0.6568627450980392,
+          "fdp": 0.0,
+          "tp": 33.5,
+          "fp": 0.0,
+          "discoveries": 33.5
+        }
+      },
+      "radial_power": {
+        "target": 0.21568627450980393,
+        "source_bound": 0.6764705882352942,
+        "bridge": 0.6568627450980392,
+        "strong_target": 0.7352941176470589,
+        "strong_pool_bound": 0.7254901960784313,
+        "fixed_e_mix": 0.6568627450980392,
+        "A0": 0.5392156862745099,
+        "previous_A04": 0.6078431372549019,
+        "previous_A05": 0.6176470588235294,
+        "previous_A06": 0.5588235294117647,
+        "conditional_target": 0.4117647058823529,
+        "conditional_source_bound": 0.6764705882352942,
+        "conditional_bridge": 0.6372549019607843,
+        "conditional_variance_bridge": 0.6372549019607843,
+        "conditional_mix": 0.5784313725490196,
+        "conditional_variance_mix": 0.5784313725490196
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 3,
+      "means": {
+        "smooth": {
+          "power": 0.6176470588235294,
+          "fdp": 0.0,
+          "tp": 31.5,
+          "fp": 0.0,
+          "discoveries": 31.5
+        },
+        "target": {
+          "power": 0.7058823529411764,
+          "fdp": 0.0,
+          "tp": 36.0,
+          "fp": 0.0,
+          "discoveries": 36.0
+        },
+        "source_bound": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "bridge": {
+          "power": 0.13725490196078433,
+          "fdp": 0.0,
+          "tp": 7.0,
+          "fp": 0.0,
+          "discoveries": 7.0
+        },
+        "variance_bridge": {
+          "power": 0.13725490196078433,
+          "fdp": 0.0,
+          "tp": 7.0,
+          "fp": 0.0,
+          "discoveries": 7.0
+        },
+        "mix_bridge": {
+          "power": 0.5490196078431373,
+          "fdp": 0.0,
+          "tp": 28.0,
+          "fp": 0.0,
+          "discoveries": 28.0
+        },
+        "mix_variance_bridge": {
+          "power": 0.5490196078431373,
+          "fdp": 0.0,
+          "tp": 28.0,
+          "fp": 0.0,
+          "discoveries": 28.0
+        },
+        "R4_strong_target": {
+          "power": 0.7156862745098039,
+          "fdp": 0.0,
+          "tp": 36.5,
+          "fp": 0.0,
+          "discoveries": 36.5
+        },
+        "R4_strong_pool_bound": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_target": {
+          "power": 0.7254901960784313,
+          "fdp": 0.012195121951219513,
+          "tp": 37.0,
+          "fp": 0.5,
+          "discoveries": 37.5
+        },
+        "R4_source_bound": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_bridge": {
+          "power": 0.10784313725490197,
+          "fdp": 0.0,
+          "tp": 5.5,
+          "fp": 0.0,
+          "discoveries": 5.5
+        }
+      },
+      "radial_power": {
+        "target": 0.7254901960784313,
+        "source_bound": 0.0,
+        "bridge": 0.10784313725490197,
+        "strong_target": 0.7156862745098039,
+        "strong_pool_bound": 0.0,
+        "fixed_e_mix": 0.33333333333333337,
+        "A0": 0.5,
+        "previous_A04": 0.6470588235294118,
+        "previous_A05": 0.4411764705882353,
+        "previous_A06": 0.607843137254902,
+        "conditional_target": 0.6862745098039216,
+        "conditional_source_bound": 0.0,
+        "conditional_bridge": 0.08823529411764706,
+        "conditional_variance_bridge": 0.08823529411764706,
+        "conditional_mix": 0.5196078431372549,
+        "conditional_variance_mix": 0.5196078431372549
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 4,
+      "means": {
+        "smooth": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "source_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "variance_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_variance_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_strong_target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_strong_pool_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_source_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        }
+      },
+      "radial_power": {
+        "target": null,
+        "source_bound": null,
+        "bridge": null,
+        "strong_target": null,
+        "strong_pool_bound": null,
+        "fixed_e_mix": null,
+        "A0": null,
+        "previous_A04": null,
+        "previous_A05": null,
+        "previous_A06": null,
+        "conditional_target": null,
+        "conditional_source_bound": null,
+        "conditional_bridge": null,
+        "conditional_variance_bridge": null,
+        "conditional_mix": null,
+        "conditional_variance_mix": null
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 5,
+      "means": {
+        "smooth": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "source_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "variance_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_variance_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_strong_target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_strong_pool_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_source_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        }
+      },
+      "radial_power": {
+        "target": null,
+        "source_bound": null,
+        "bridge": null,
+        "strong_target": null,
+        "strong_pool_bound": null,
+        "fixed_e_mix": null,
+        "A0": null,
+        "previous_A04": null,
+        "previous_A05": null,
+        "previous_A06": null,
+        "conditional_target": null,
+        "conditional_source_bound": null,
+        "conditional_bridge": null,
+        "conditional_variance_bridge": null,
+        "conditional_mix": null,
+        "conditional_variance_mix": null
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 6,
+      "means": {
+        "smooth": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "source_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "variance_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "mix_variance_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_strong_target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_strong_pool_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_target": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_source_bound": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_bridge": {
+          "power": null,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        }
+      },
+      "radial_power": {
+        "target": null,
+        "source_bound": null,
+        "bridge": null,
+        "strong_target": null,
+        "strong_pool_bound": null,
+        "fixed_e_mix": null,
+        "A0": null,
+        "previous_A04": null,
+        "previous_A05": null,
+        "previous_A06": null,
+        "conditional_target": null,
+        "conditional_source_bound": null,
+        "conditional_bridge": null,
+        "conditional_variance_bridge": null,
+        "conditional_mix": null,
+        "conditional_variance_mix": null
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 7,
+      "means": {
+        "smooth": {
+          "power": 0.3112745098039216,
+          "fdp": 0.0,
+          "tp": 63.5,
+          "fp": 0.0,
+          "discoveries": 63.5
+        },
+        "target": {
+          "power": 0.38480392156862747,
+          "fdp": 0.0,
+          "tp": 78.5,
+          "fp": 0.0,
+          "discoveries": 78.5
+        },
+        "source_bound": {
+          "power": 0.15441176470588236,
+          "fdp": 0.0,
+          "tp": 31.5,
+          "fp": 0.0,
+          "discoveries": 31.5
+        },
+        "bridge": {
+          "power": 0.24019607843137253,
+          "fdp": 0.0,
+          "tp": 49.0,
+          "fp": 0.0,
+          "discoveries": 49.0
+        },
+        "variance_bridge": {
+          "power": 0.23774509803921567,
+          "fdp": 0.0,
+          "tp": 48.5,
+          "fp": 0.0,
+          "discoveries": 48.5
+        },
+        "mix_bridge": {
+          "power": 0.3799019607843137,
+          "fdp": 0.0,
+          "tp": 77.5,
+          "fp": 0.0,
+          "discoveries": 77.5
+        },
+        "mix_variance_bridge": {
+          "power": 0.3799019607843137,
+          "fdp": 0.0,
+          "tp": 77.5,
+          "fp": 0.0,
+          "discoveries": 77.5
+        },
+        "R4_strong_target": {
+          "power": 0.41911764705882354,
+          "fdp": 0.0,
+          "tp": 85.5,
+          "fp": 0.0,
+          "discoveries": 85.5
+        },
+        "R4_strong_pool_bound": {
+          "power": 0.321078431372549,
+          "fdp": 0.0,
+          "tp": 65.5,
+          "fp": 0.0,
+          "discoveries": 65.5
+        },
+        "R4_target": {
+          "power": 0.3235294117647059,
+          "fdp": 0.0,
+          "tp": 66.0,
+          "fp": 0.0,
+          "discoveries": 66.0
+        },
+        "R4_source_bound": {
+          "power": 0.11029411764705882,
+          "fdp": 0.0,
+          "tp": 22.5,
+          "fp": 0.0,
+          "discoveries": 22.5
+        },
+        "R4_bridge": {
+          "power": 0.17401960784313725,
+          "fdp": 0.0,
+          "tp": 35.5,
+          "fp": 0.0,
+          "discoveries": 35.5
+        }
+      },
+      "radial_power": {
+        "target": 0.3235294117647059,
+        "source_bound": 0.11029411764705882,
+        "bridge": 0.17401960784313725,
+        "strong_target": 0.41911764705882354,
+        "strong_pool_bound": 0.321078431372549,
+        "fixed_e_mix": 0.32107843137254904,
+        "A0": 0.25735294117647056,
+        "previous_A04": 0.3529411764705882,
+        "previous_A05": 0.32107843137254904,
+        "previous_A06": 0.21323529411764705,
+        "conditional_target": 0.35539215686274506,
+        "conditional_source_bound": 0.19362745098039214,
+        "conditional_bridge": 0.23774509803921567,
+        "conditional_variance_bridge": 0.23774509803921567,
+        "conditional_mix": 0.3480392156862745,
+        "conditional_variance_mix": 0.3480392156862745
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 8,
+      "means": {
+        "smooth": {
+          "power": 0.5784313725490196,
+          "fdp": 0.0,
+          "tp": 29.5,
+          "fp": 0.0,
+          "discoveries": 29.5
+        },
+        "target": {
+          "power": 0.5,
+          "fdp": 0.0,
+          "tp": 25.5,
+          "fp": 0.0,
+          "discoveries": 25.5
+        },
+        "source_bound": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "bridge": {
+          "power": 0.5,
+          "fdp": 0.0,
+          "tp": 25.5,
+          "fp": 0.0,
+          "discoveries": 25.5
+        },
+        "variance_bridge": {
+          "power": 0.5098039215686274,
+          "fdp": 0.0,
+          "tp": 26.0,
+          "fp": 0.0,
+          "discoveries": 26.0
+        },
+        "mix_bridge": {
+          "power": 0.5,
+          "fdp": 0.0,
+          "tp": 25.5,
+          "fp": 0.0,
+          "discoveries": 25.5
+        },
+        "mix_variance_bridge": {
+          "power": 0.5,
+          "fdp": 0.0,
+          "tp": 25.5,
+          "fp": 0.0,
+          "discoveries": 25.5
+        },
+        "R4_strong_target": {
+          "power": 0.607843137254902,
+          "fdp": 0.0,
+          "tp": 31.0,
+          "fp": 0.0,
+          "discoveries": 31.0
+        },
+        "R4_strong_pool_bound": {
+          "power": 0.5784313725490196,
+          "fdp": 0.0,
+          "tp": 29.5,
+          "fp": 0.0,
+          "discoveries": 29.5
+        },
+        "R4_target": {
+          "power": 0.28431372549019607,
+          "fdp": 0.0,
+          "tp": 14.5,
+          "fp": 0.0,
+          "discoveries": 14.5
+        },
+        "R4_source_bound": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_bridge": {
+          "power": 0.21568627450980393,
+          "fdp": 0.0,
+          "tp": 11.0,
+          "fp": 0.0,
+          "discoveries": 11.0
+        }
+      },
+      "radial_power": {
+        "target": 0.28431372549019607,
+        "source_bound": 0.0,
+        "bridge": 0.21568627450980393,
+        "strong_target": 0.607843137254902,
+        "strong_pool_bound": 0.5784313725490196,
+        "fixed_e_mix": 0.28431372549019607,
+        "A0": 0.43137254901960786,
+        "previous_A04": 0.5,
+        "previous_A05": 0.5294117647058824,
+        "previous_A06": 0.411764705882353,
+        "conditional_target": 0.5,
+        "conditional_source_bound": 0.0,
+        "conditional_bridge": 0.5098039215686274,
+        "conditional_variance_bridge": 0.5196078431372548,
+        "conditional_mix": 0.4901960784313726,
+        "conditional_variance_mix": 0.4901960784313726
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    },
+    {
+      "case": 9,
+      "means": {
+        "smooth": {
+          "power": 0.8823529411764706,
+          "fdp": 0.06880341880341881,
+          "tp": 45.0,
+          "fp": 3.5,
+          "discoveries": 48.5
+        },
+        "target": {
+          "power": 0.42156862745098034,
+          "fdp": 0.0,
+          "tp": 21.5,
+          "fp": 0.0,
+          "discoveries": 21.5
+        },
+        "source_bound": {
+          "power": 0.9019607843137255,
+          "fdp": 0.07474747474747474,
+          "tp": 46.0,
+          "fp": 4.0,
+          "discoveries": 50.0
+        },
+        "bridge": {
+          "power": 0.8823529411764706,
+          "fdp": 0.06880341880341881,
+          "tp": 45.0,
+          "fp": 3.5,
+          "discoveries": 48.5
+        },
+        "variance_bridge": {
+          "power": 0.8725490196078431,
+          "fdp": 0.06905594405594406,
+          "tp": 44.5,
+          "fp": 3.5,
+          "discoveries": 48.0
+        },
+        "mix_bridge": {
+          "power": 0.8725490196078431,
+          "fdp": 0.011363636363636364,
+          "tp": 44.5,
+          "fp": 0.5,
+          "discoveries": 45.0
+        },
+        "mix_variance_bridge": {
+          "power": 0.8529411764705882,
+          "fdp": 0.0,
+          "tp": 43.5,
+          "fp": 0.0,
+          "discoveries": 43.5
+        },
+        "R4_strong_target": {
+          "power": 0.7254901960784315,
+          "fdp": 0.0,
+          "tp": 37.0,
+          "fp": 0.0,
+          "discoveries": 37.0
+        },
+        "R4_strong_pool_bound": {
+          "power": 0.9117647058823529,
+          "fdp": 0.08491295938104448,
+          "tp": 46.5,
+          "fp": 4.5,
+          "discoveries": 51.0
+        },
+        "R4_target": {
+          "power": 0.0,
+          "fdp": 0.0,
+          "tp": 0.0,
+          "fp": 0.0,
+          "discoveries": 0.0
+        },
+        "R4_source_bound": {
+          "power": 0.9215686274509804,
+          "fdp": 0.09424860853432282,
+          "tp": 47.0,
+          "fp": 5.0,
+          "discoveries": 52.0
+        },
+        "R4_bridge": {
+          "power": 0.892156862745098,
+          "fdp": 0.06771488469601677,
+          "tp": 45.5,
+          "fp": 3.5,
+          "discoveries": 49.0
+        }
+      },
+      "radial_power": {
+        "target": 0.0,
+        "source_bound": 0.9215686274509804,
+        "bridge": 0.892156862745098,
+        "strong_target": 0.7254901960784315,
+        "strong_pool_bound": 0.9117647058823529,
+        "fixed_e_mix": 0.8725490196078431,
+        "A0": 0.9019607843137255,
+        "previous_A04": 0.8627450980392157,
+        "previous_A05": 0.892156862745098,
+        "previous_A06": 0.9019607843137255,
+        "conditional_target": 0.4215686274509804,
+        "conditional_source_bound": 0.9019607843137255,
+        "conditional_bridge": 0.9019607843137255,
+        "conditional_variance_bridge": 0.9019607843137255,
+        "conditional_mix": 0.8627450980392157,
+        "conditional_variance_mix": 0.8627450980392157
+      },
+      "method_failures": {
+        "smooth": 0,
+        "target": 0,
+        "source_bound": 0,
+        "bridge": 0,
+        "variance_bridge": 0
+      }
+    }
+  ],
+  "failures": []
+}

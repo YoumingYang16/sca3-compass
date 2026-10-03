@@ -1,0 +1,20 @@
+{
+  "phase":"DEVELOPMENT_ONLY",
+  "purpose":"Prespecified mechanism screen for a fixed-vs-free central-F scale anchor. Includes known continuous-effect failures and NEW low-study-correlation scale-confounding tests. Not confirmation; does not equate API tau9 fixture with the unit-noise generator.",
+  "cases":[
+    {"name":"normal_matched_high","distribution":"normal","rho":0.95,"n":64,"effect":3.5},
+    {"name":"t5_matched_high","distribution":"t5","rho":0.8,"n":64,"effect":3.5},
+    {"name":"t5_continuous","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"effect_jitter":0.7},
+    {"name":"lognormal_continuous","distribution":"lognormal","rho":0.8,"n":64,"effect":3.5,"effect_jitter":0.7},
+    {"name":"normal_moderate_cov_null","distribution":"normal","rho":0.5,"calibration_rho":0.3,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"normal_medium_cov_signal","distribution":"normal","rho":0.8,"calibration_rho":0.4,"n":64,"effect":3.5},
+    {"name":"t5_severe_cov_signal","distribution":"t5","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5},
+    {"name":"t5_down_cov_signal","distribution":"t5","rho":0.1,"calibration_rho":0.95,"n":64,"effect":3.5},
+    {"name":"t1.5_single_study","distribution":"t1.5","rho":0.8,"n":64,"effect":8,"truth":"single_study_only"},
+    {"name":"t5_sparse","distribution":"t5","rho":0.8,"n":64,"effect":3.5,"fraction":0.02},
+    {"name":"normal_isotropic_upshift_null","distribution":"normal","rho":0.8,"calibration_rho":0.1,"study_rho":0,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_isotropic_upshift_null","distribution":"t5","rho":0.8,"calibration_rho":0.1,"study_rho":0,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"normal_isotropic_upshift_signal","distribution":"normal","rho":0.8,"calibration_rho":0.1,"study_rho":0,"n":64,"effect":3.5},
+    {"name":"t5_isotropic_upshift_signal","distribution":"t5","rho":0.8,"calibration_rho":0.1,"study_rho":0,"n":64,"effect":3.5}
+  ]
+}

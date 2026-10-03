@@ -1,0 +1,6 @@
+# Independent R4 environment; do not change the frozen historical .venv.
+# Bundled Python3.12.14 provides an allowed NumPy2.3.5. SciPy installed from PyPI.
+numpy==2.3.5
+scipy==1.16.3
+threadpoolctl==3.6.0
+pytest==8.4.2

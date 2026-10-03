@@ -1,0 +1,12 @@
+# Independent base-R recomputation; no Python permutation or scaling functions.
+args <- commandArgs(trailingOnly=TRUE)
+x <- as.matrix(read.table(args[1],header=FALSE))
+directions <- scan(args[2],quiet=TRUE)
+stopifnot(ncol(x)==12,length(directions)==nrow(x))
+z <- t(scale(t(log2(x+.5)),center=TRUE,scale=TRUE))
+score <- colMeans(z*directions)
+assignments <- combn(12,6)
+contrasts <- apply(assignments,2,function(idx) mean(score[idx])-mean(score[-idx]))
+observed <- mean(score[7:12])-mean(score[1:6])
+p <- mean(contrasts>=observed-1e-12)
+write.table(matrix(c(observed,p),nrow=1),args[3],row.names=FALSE,col.names=FALSE)

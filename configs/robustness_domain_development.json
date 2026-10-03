@@ -1,0 +1,22 @@
+{
+  "phase":"DEVELOPMENT_ONLY",
+  "purpose":"Moderate and severe unseen nuisance combinations challenge the fourfold gate; no acceptance weighting changes",
+  "cases":[
+    {"name":"normal_moderate_cov_null","distribution":"normal","rho":0.5,"calibration_rho":0.3,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_moderate_cov_null","distribution":"t5","rho":0.5,"calibration_rho":0.3,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_moderate_cov_signal","distribution":"t5","rho":0.5,"calibration_rho":0.3,"n":64,"effect":3.5},
+    {"name":"normal_medium_cov_null","distribution":"normal","rho":0.8,"calibration_rho":0.4,"n":16,"effect":3.5,"truth":"global_null"},
+    {"name":"t3_medium_cov_null","distribution":"t3","rho":0.8,"calibration_rho":0.4,"n":16,"effect":3.5,"truth":"global_null"},
+    {"name":"t3_medium_cov_signal","distribution":"t3","rho":0.8,"calibration_rho":0.4,"n":16,"effect":3.5},
+    {"name":"t1.5_severe_cov_null","distribution":"t1.5","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"t1.5_severe_cov_single","distribution":"t1.5","rho":0.95,"calibration_rho":0.1,"n":64,"effect":8,"truth":"single_study_only"},
+    {"name":"t1.5_severe_cov_signal","distribution":"t1.5","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5},
+    {"name":"lognormal_severe_cov_null","distribution":"lognormal","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5,"truth":"global_null"},
+    {"name":"lognormal_severe_cov_signal","distribution":"lognormal","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5},
+    {"name":"t5_cov_and_tail_null","distribution":"t5","calibration_distribution":"normal","rho":0.8,"calibration_rho":0.1,"n":16,"effect":3.5,"truth":"global_null"},
+    {"name":"t5_cov_and_tail_signal","distribution":"t5","calibration_distribution":"normal","rho":0.8,"calibration_rho":0.1,"n":16,"effect":3.5},
+    {"name":"t5_gene_dependence_null","distribution":"t5","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5,"truth":"global_null","gene_rho":0.4},
+    {"name":"t5_gene_dependence_signal","distribution":"t5","rho":0.95,"calibration_rho":0.1,"n":64,"effect":3.5,"gene_rho":0.4},
+    {"name":"t5_small_shift_null","distribution":"t5","rho":0.8,"calibration_rho":0.7,"n":64,"effect":3.5,"truth":"global_null"}
+  ]
+}
